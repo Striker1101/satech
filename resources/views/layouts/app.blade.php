@@ -6,8 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Satech') }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="profile" href="https://gmpg.org/xfn/11" />
-    <link rel="pingback" href="https://demo.rstheme.com/wordpress/abuild/xmlrpc.php" />
+
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="{{ asset('css/global.css') }}">
@@ -19,48 +18,27 @@
         href="https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2"
         crossorigin />
     <link rel="stylesheet" id="siteground-optimizer-combined-css-d9463f1e692b96fb73f878ded50123d6"
-        href="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-d9463f1e692b96fb73f878ded50123d6.css"
-        media="all" />
-    <link rel="preload"
-        href="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/siteground-optimizer-assets/siteground-optimizer-combined-css-d9463f1e692b96fb73f878ded50123d6.css"
-        as="style">
+        href="{{ asset('css/siteground-optimizer-combined.css') }}" media="all" />
+    <link rel="preload" href="{{ asset('css/siteground-optimizer-combined.css') }}" as="style">
     <meta name='robots' content='max-image-preview:large' />
 
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel="alternate" type="application/rss+xml" title="Abuild Construction WordPress Theme &raquo; Feed"
-        href="https://demo.rstheme.com/wordpress/abuild/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Abuild Construction WordPress Theme &raquo; Comments Feed"
-        href="https://demo.rstheme.com/wordpress/abuild/comments/feed/" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
-    </script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.min.js') }}?ver=3.7.1" id="jquery-core-js"></script>
     <link rel="stylesheet" href="{{ asset('css/root.css') }}">
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery-migrate.min.js') }}?ver=3.4.1" id="jquery-migrate-js">
+    </script>
     <script type="text/javascript"
         src="//demo.rstheme.com/wordpress/abuild/wp-content/plugins/revslider/public/js/libs/tptools.js?ver=6.7.23"
         id="tp-tools-js" async="async" data-wp-strategy="async"></script>
     <script type="text/javascript"
         src="//demo.rstheme.com/wordpress/abuild/wp-content/plugins/revslider/public/js/sr7.js?ver=6.7.23" id="sr7-js"
         async="async" data-wp-strategy="async"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/theia-sticky-sidebar.js?ver=1.0.1"
-        id="theia-sticky-sidebar-js"></script>
-    <link rel="https://api.w.org/" href="https://demo.rstheme.com/wordpress/abuild/wp-json/" />
-    <link rel="alternate" title="JSON" type="application/json"
-        href="https://demo.rstheme.com/wordpress/abuild/wp-json/wp/v2/pages/10844" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD"
-        href="https://demo.rstheme.com/wordpress/abuild/xmlrpc.php?rsd" />
-
+    <script type="text/javascript" src="{{ asset('js/theia-sticky-sidebar.js') }}?ver=1.0.1" id="theia-sticky-sidebar-js">
+    </script>
     <link rel="canonical" href="https://demo.rstheme.com/wordpress/abuild/" />
     <link rel='shortlink' href='https://demo.rstheme.com/wordpress/abuild/' />
-    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://demo.rstheme.com/wordpress/abuild/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.rstheme.com%2Fwordpress%2Fabuild%2F" />
-    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://demo.rstheme.com/wordpress/abuild/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.rstheme.com%2Fwordpress%2Fabuild%2F&#038;format=xml" />
     <meta name="generator"
         content="Elementor 3.27.5; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
 
@@ -68,13 +46,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <meta name="generator"
         content="Powered by Slider Revolution 6.7.23 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/fab-150x150.png"
-        sizes="32x32" />
-    <link rel="icon" href="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/fab.png"
-        sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/fab.png" />
-    <meta name="msapplication-TileImage"
-        content="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/fab.png" />
+    <link rel="icon" href="{{ asset('logo.png') }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset('logo.png') }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset('logo.png') }}" />
+    <meta name="msapplication-TileImage" content="{{ asset('logo.png') }}" />
     <script>
         window._tpt ? ? = {};
         window.SR7 ? ? = {};
@@ -471,10 +446,43 @@
 </head>
 
 
-<body>
+<body
+    class="home page-template page-template-elementor_header_footer page page-id-10844 ehf-header ehf-footer ehf-template-abuild ehf-stylesheet-abuild rs-smoother-yes elementor-default elementor-template-full-width elementor-kit-10911 elementor-page elementor-page-10844">
+
+    <!--Preloader start here-->
+    <div id="pre-load">
+        <button class="cancel-loader" type="button">Cancel Loader</button>
+        <div id="loader" class="loader">
+            <div class="loader-container">
+                <div class='loader-icon'><img src="{{ asset('logo.png') }}" alt="Abuild Construction WordPress Theme">
+                </div>
+            </div>
+        </div>
+    </div>
+
     @include('partials.nav')
-    @yield('content')
-    @include('partials.footer')
+    <div id="page" class="hfeed site is-page gsap-enable">
+        @include('partials.header')
+        @yield('content')
+        @include('partials.footer')
+    </div>
+
+
+    <!-- #page -->
+    <div id="scrollUp">
+        <svg class="arrowup" viewBox="0 0 24 24" width="18" height="18">
+            <path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
+                fill="#fff"></path>
+        </svg>
+        <svg class="scrollprogress" width="40" height="40">
+            <circle class="progress-circle" cx="20" cy="20" r="18" stroke-width="2" fill="none"
+                stroke="#fff" stroke-dasharray="113.1" stroke-dashoffset="113.1"></circle>
+        </svg>
+    </div>
+    <!-- Custom Cursor Start -->
+    <div id="rs-mouse">
+        <div id="cursor-ball"></div>
+    </div>
 
 
     <!-- Custom Cursor End -->
@@ -507,18 +515,10 @@
         });
     </script>
 
-
-
-
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/frontend.js?ver=1754278226"
+    <script type="text/javascript" src="{{ asset('js/frontend.js') }}?ver=1754278226"
         id="rselements-frontend-editor-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
-        id="wp-hooks-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
-        id="wp-i18n-js"></script>
+    <script type="text/javascript" src="{{ asset('js/hooks.min.js') }}?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script type="text/javascript" src="{{ asset('js/i18n.min.js') }}?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
     <script type="text/javascript" id="wp-i18n-js-after">
         /* <![CDATA[ */
         wp.i18n.setLocaleData({
@@ -526,9 +526,7 @@
         });
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.3"
-        id="swv-js"></script>
+    <script type="text/javascript" src="{{ asset('js/swn-index.js') }}?ver=6.0.3" id="swv-js"></script>
     <script type="text/javascript" id="contact-form-7-js-before">
         /* <![CDATA[ */
         var wpcf7 = {
@@ -539,69 +537,34 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.3"
-        id="contact-form-7-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/popper.min.js?ver=201513434"
-        id="popper-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/headding-title.js?ver=201513434"
-        id="headding-title-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/slick.min.js?ver=201513434"
-        id="slick-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/tilt.jquery.min.js?ver=201513434"
-        id="js-tilt-view-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/jquery-ui.js?ver=201513434"
-        id="jquery-ui-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/parallax-effect.min.js?ver=201513434"
-        id="parallax-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/jQuery-plugin-progressbar.js?ver=201513434"
-        id="jquery-plugin-progressbar-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/ddbeforeandafter.js?ver=201513434"
-        id="ddbefore-and-after-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/jquery.marquee.min.js?ver=201513434"
-        id="rsaddons-marquee-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/jquery.marquee.min.js?ver=201513434"
-        id="rsaddons-music-player-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/modernizr-2.8.3.min.js?ver=2.8.3"
-        id="modernizr-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/bootstrap.min.js?ver=5.0.2"
-        id="bootstrap-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/owl.carousel.min.js?ver=2.2.1"
-        id="owl-carousel-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/classie.js?ver=1.0.0"
-        id="classie-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5"
-        id="swiper-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/chart.umd.min.js?ver=8.1.4"
-        id="chart-umd-min-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/waypoints.min.js?ver=2.0.3"
-        id="waypoints-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/waypoints-sticky.min.js?ver=2.0.5"
-        id="waypoints-sticky-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/jquery.lettering.js?ver=2.0.3"
-        id="lettering-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js">
+    <script type="text/javascript" src="{{ asset('js/contact-form-7.js') }}?ver=6.0.3" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="{{ asset('js/popper.js') }}?ver=201513434" id="popper-js"></script>
+    <script type="text/javascript" src="{{ asset('js/headding-title.js') }}?ver=201513434" id="headding-title-js"></script>
+    <script type="text/javascript" src="{{ asset('js/slick.min.js') }}?ver=201513434" id="slick-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/tilt.jquery.min.js') }}?ver=201513434" id="js-tilt-view-js">
     </script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery-ui.js') }}?ver=201513434" id="jquery-ui-js"></script>
+    <script type="text/javascript" src="{{ asset('js/parallax-effect.min.js') }}?ver=201513434" id="parallax-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jQuery-plugin-progressbar.js') }}?ver=201513434"
+        id="jquery-plugin-progressbar-js"></script>
+    <script type="text/javascript" src="{{ asset('js/ddbeforeandafter.js') }}?ver=201513434" id="ddbefore-and-after-js">
+    </script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.marquee.min.js') }}?ver=201513434"
+        id="rsaddons-marquee-js-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.marquee.min.js') }}?ver=201513434"
+        id="rsaddons-music-player-js-js"></script>
+    <script type="text/javascript" src="{{ asset('js/modernizr-2.8.3.min.js') }}?ver=2.8.3" id="modernizr-js"></script>
+    <script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}?ver=5.0.2" id="bootstrap-js"></script>
+    <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}?ver=2.2.1" id="owl-carousel-js"></script>
+    <script type="text/javascript" src="{{ asset('js/classie.js') }}?ver=1.0.0" id="classie-js"></script>
+    <script type="text/javascript" src="{{ asset('js/swiper.min.js') }}?ver=8.4.5" id="swiper-js"></script>
+    <script type="text/javascript" src="{{ asset('js/chart.umd.min.js') }}?ver=8.1.4" id="chart-umd-min-js"></script>
+    <script type="text/javascript" src="{{ asset('js/waypoints.min.js') }}?ver=2.0.3" id="waypoints-js"></script>
+    <script type="text/javascript" src="{{ asset('js/waypoints-sticky.min.js') }}?ver=2.0.5" id="waypoints-sticky-js">
+    </script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.lettering.js') }}?ver=2.0.3" id="lettering-js">
+    </script>
+    <script type="text/javascript" src="{{ asset('js/imagesloaded.min.js') }}?ver=5.0.0" id="imagesloaded-js"></script>
     <script type="text/javascript"
         src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/isotope.js?ver=3.0.4"
         id="isotope-js"></script>
