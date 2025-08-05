@@ -565,54 +565,28 @@
     <script type="text/javascript" src="{{ asset('js/jquerry/jquery.lettering.js') }}?ver=2.0.3" id="lettering-js">
     </script>
     <script type="text/javascript" src="{{ asset('js/imagesloaded.min.js') }}?ver=5.0.0" id="imagesloaded-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/isotope.js?ver=3.0.4"
-        id="isotope-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/jquery.magnific-popup.min.js?ver=1.1.0"
+    <script type="text/javascript" src="{{ asset('js/isotope.js') }}ver=3.0.4" id="isotope-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.magnific-popup.min.js') }}?ver=1.1.0"
         id="jquery-magnific-popup-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/odometer.min.js?ver=1.0.0"
-        id="odometer-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/jquery.appear.min.js?ver=1.0.0"
-        id="appear-min-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/lenis.min.js?ver=1.0.0"
-        id="lenis-min-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/interactions/gsap.min.js?ver=1.1.0"
-        id="gsap-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/interactions/rs-splitText.min.js?ver=1.1.0"
-        id="splittext-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/interactions/rs-scroll-trigger.min.js?ver=1.1.0"
-        id="scroll-trigger-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/interactions/rs-anim-int.js?ver=1.1.0"
-        id="gsap-int-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/themes/abuild/assets/js/main.js?ver=1.0.1"
-        id="abuild-main-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-header-footer/inc/js/frontend.js?ver=1.0.1"
-        id="hfe-frontend-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/custom.js?ver=201513434"
-        id="rsaddons-offcanvas-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/abuild-addons/assets/js/jquery.countdownTimer.js?ver=201513434"
+    <script type="text/javascript" src="{{ asset('js/odometer.min.js') }}?ver=1.0.0" id="odometer-js-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.appear.min.js') }}?ver=1.0.0" id="appear-min-js">
+    </script>
+    <script type="text/javascript" src="{{ asset('js/lenis.min.js') }}?ver=1.0.0" id="lenis-min-js"></script>
+    <script type="text/javascript" src="{{ asset('js/gsap.min.js') }}?ver=1.1.0" id="gsap-js"></script>
+    <script type="text/javascript" src="{{ asset('js/rs-splitText.min.js') }}?ver=1.1.0" id="splittext-js"></script>
+    <script type="text/javascript" src="{{ asset('js/rs-scroll-trigger.min.js') }}?ver=1.1.0" id="scroll-trigger-js">
+    </script>
+    <script type="text/javascript" src="{{ asset('js/rs-anim-int.js') }}?ver=1.1.0" id="gsap-int-js"></script>
+    <script type="text/javascript" src="{{ asset('js/main.js') }}?ver=1.0.1" id="abuild-main-js"></script>
+    <script type="text/javascript" src="{{ asset('js/header-frontend.js') }}?ver=1.0.1" id="hfe-frontend-js-js"></script>
+    <script type="text/javascript" src="{{ asset('js/custom.js') }}?ver=201513434" id="rsaddons-offcanvas-js-js"></script>
+    <script type="text/javascript" src="{{ asset('js/jquerry/jquery.countdownTimer.js') }}?ver=201513434"
         id="rsaddons-countdowntimer-js-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.5"
+    <script type="text/javascript" src="{{ asset('js/webpack.runtime.min.js') }}?ver=3.27.5"
         id="elementor-webpack-runtime-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.5"
+    <script type="text/javascript" src="{{ asset('js/frontend-modules.min.js') }}?ver=3.27.5"
         id="elementor-frontend-modules-js"></script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
-        id="jquery-ui-core-js"></script>
+    <script type="text/javascript" src="{{ asset('js/core.min.js') }}?ver=1.13.3" id="jquery-ui-core-js"></script>
     <script type="text/javascript" id="elementor-frontend-js-before">
         /* <![CDATA[ */
         var elementorFrontendConfig = {
@@ -744,10 +718,7 @@
         };
         /* ]]> */
     </script>
-    <script type="text/javascript"
-        src="https://demo.rstheme.com/wordpress/abuild/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.5"
-        id="elementor-frontend-js"></script>
-
+    <script type="text/javascript" src="{{ asset('js/frontend.min.js') }}?ver=3.27.5" id="elementor-frontend-js"></script>
 </body>
 
 </html>

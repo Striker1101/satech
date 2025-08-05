@@ -96,13 +96,13 @@
                                  <div class="elementor-widget-container">
                                      <div class="hfe-site-logo">
                                          <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                             href="https://demo.rstheme.com/wordpress/abuild">
+                                             href="{{ route('homepage') }}">
                                              <div class="hfe-site-logo-set">
                                                  <div class="hfe-site-logo-container">
 
                                                      <img class="hfe-site-logo-img elementor-animation-"
-                                                         src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/logo.png"
-                                                         alt="logo" />
+                                                         style="width: 200px; height: 150px;"
+                                                         src="{{ asset('logo_white.png') }}" alt="logo" />
                                                  </div>
                                              </div>
                                          </a>
@@ -130,8 +130,7 @@
                                      <div class="rs-button style1 unique-62927">
 
 
-                                         <a class="rs-btn anim-dir-"
-                                             href="https://demo.rstheme.com/wordpress/abuild/about-us/">
+                                         <a class="rs-btn anim-dir-" href="{{ route('about') }}">
                                              <span>Discover More
                                                  <em>
                                                      <svg xmlns="http://www.w3.org/2000/svg" width="17"
@@ -195,32 +194,34 @@
                                                  <ul id="menu-1-ea26097" class="hfe-nav-menu dropdownto-left-no">
                                                      <li id="menu-item-872-256277"
                                                          class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/about-us/"
-                                                             class="hfe-menu-item">About Us<em
-                                                                 class="rs__menu_sp_dyc"><i
+                                                         <a href="{{ route('about') }}" class="hfe-menu-item">About
+                                                             Us<em class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-874-268504"
                                                          class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                         <a href="#ourservices" class="hfe-menu-item">Our
+                                                         <a href="{{ route('homepage') }}#ourservices"
+                                                             class="hfe-menu-item">Our
                                                              Services<em class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-875-325603"
                                                          class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                         <a href="#ourpricing" class="hfe-menu-item">Our
+                                                         <a href="{{ route('homepage') }}#ourpricing"
+                                                             class="hfe-menu-item">Our
                                                              Pricing<em class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-879-158623"
                                                          class="menu-item menu-item-type-custom menu-item-object-custom parent hfe-creative-menu">
-                                                         <a href="#ourteam" class="hfe-menu-item">Our team<em
+                                                         <a href="{{ route('homepage') }}#ourteam"
+                                                             class="hfe-menu-item">Our team<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-880-777161"
                                                          class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/contact-us/"
+                                                         <a href="{{ route('contact') }}"
                                                              class="hfe-menu-item">Contact Us<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
@@ -274,35 +275,35 @@
                                                  <ul id="menu-1-65b80ad" class="hfe-nav-menu dropdownto-left-no">
                                                      <li id="menu-item-3210-477699"
                                                          class="menu-item menu-item-type-post_type menu-item-object-services parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/service/building-renovation/"
+                                                         <a href="{{ route('service.service_detail') }}?name=building-renovation"
                                                              class="hfe-menu-item">Building Renovation<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-3211-451773"
                                                          class="menu-item menu-item-type-post_type menu-item-object-services parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/service/general-contracting/"
+                                                         <a href="{{ route('service.service_detail') }}?name=bgeneral-contracting"
                                                              class="hfe-menu-item">General Contracting<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-3212-645449"
                                                          class="menu-item menu-item-type-post_type menu-item-object-services parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/service/repair-expand/"
+                                                         <a href="{{ route('service.service_detail') }}?name=repair-expand"
                                                              class="hfe-menu-item">Repair &#038; Expand<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-3213-837744"
                                                          class="menu-item menu-item-type-post_type menu-item-object-services parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/service/architecture-design/"
+                                                         <a href="{{ route('service.service_detail') }}?name=architecture-design"
                                                              class="hfe-menu-item">Architecture Design<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
                                                      </li>
                                                      <li id="menu-item-3214-706813"
                                                          class="menu-item menu-item-type-post_type menu-item-object-services parent hfe-creative-menu">
-                                                         <a href="https://demo.rstheme.com/wordpress/abuild/service/building-contraction/"
+                                                         <a href="{{ route('service.service_detail') }}?name=building-contraction"
                                                              class="hfe-menu-item">Building Contraction<em
                                                                  class="rs__menu_sp_dyc"><i
                                                                      class="ri-arrow-right-line"></i></em></a>
@@ -341,9 +342,9 @@
                                                          data-elementor-lightbox-slideshow="9e9957a"
                                                          data-elementor-lightbox-title="services_01"
                                                          data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTUxNTEsInVybCI6Imh0dHBzOlwvXC9kZW1vLnJzdGhlbWUuY29tXC93b3JkcHJlc3NcL2FidWlsZFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDFcL3NlcnZpY2VzXzAxLTEuanBnIiwic2xpZGVzaG93IjoiOWU5OTU3YSJ9"
-                                                         href='https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_01-1.jpg'><img
+                                                         href='{{ asset('images/internal/services_01-1.jpg') }}'><img
                                                              width="700" height="520"
-                                                             src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_01-1-700x520.jpg"
+                                                             src="{{ asset('images/internal/services_01-1.jpg') }}"
                                                              class="attachment-abuild_blog-transparent size-abuild_blog-transparent"
                                                              alt="" decoding="async" /></a>
                                                  </div>
@@ -354,9 +355,9 @@
                                                          data-elementor-lightbox-slideshow="9e9957a"
                                                          data-elementor-lightbox-title="services_02"
                                                          data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTUxNTIsInVybCI6Imh0dHBzOlwvXC9kZW1vLnJzdGhlbWUuY29tXC93b3JkcHJlc3NcL2FidWlsZFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDFcL3NlcnZpY2VzXzAyLTEuanBnIiwic2xpZGVzaG93IjoiOWU5OTU3YSJ9"
-                                                         href='https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_02-1.jpg'><img
+                                                         href='{{ asset('images/internal/services_02-1.jpg') }}'><img
                                                              width="700" height="520"
-                                                             src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_02-1-700x520.jpg"
+                                                             src="{{ asset('images/internal/services_02-1.jpg') }}"
                                                              class="attachment-abuild_blog-transparent size-abuild_blog-transparent"
                                                              alt="" decoding="async" /></a>
                                                  </div>
@@ -367,9 +368,9 @@
                                                          data-elementor-lightbox-slideshow="9e9957a"
                                                          data-elementor-lightbox-title="services_03"
                                                          data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTUxNTMsInVybCI6Imh0dHBzOlwvXC9kZW1vLnJzdGhlbWUuY29tXC93b3JkcHJlc3NcL2FidWlsZFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDFcL3NlcnZpY2VzXzAzLTEuanBnIiwic2xpZGVzaG93IjoiOWU5OTU3YSJ9"
-                                                         href='https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_03-1.jpg'><img
+                                                         href='{{ asset('images/internal/services_03-1.jpg') }}'><img
                                                              width="700" height="520"
-                                                             src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_03-1-700x520.jpg"
+                                                             src="{{ asset('images/internal/services_03-1.jpg') }}"
                                                              class="attachment-abuild_blog-transparent size-abuild_blog-transparent"
                                                              alt="" decoding="async" /></a>
                                                  </div>
@@ -380,9 +381,9 @@
                                                          data-elementor-lightbox-slideshow="9e9957a"
                                                          data-elementor-lightbox-title="services_04"
                                                          data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTUxNTQsInVybCI6Imh0dHBzOlwvXC9kZW1vLnJzdGhlbWUuY29tXC93b3JkcHJlc3NcL2FidWlsZFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDFcL3NlcnZpY2VzXzA0LmpwZyIsInNsaWRlc2hvdyI6IjllOTk1N2EifQ%3D%3D"
-                                                         href='https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_04.jpg'><img
+                                                         href='{{ asset('images/internal/services_04.jpg') }}'><img
                                                              width="700" height="520"
-                                                             src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_04-700x520.jpg"
+                                                             src="{{ asset('images/internal/services_04.jpg') }}"
                                                              class="attachment-abuild_blog-transparent size-abuild_blog-transparent"
                                                              alt="" decoding="async" /></a>
                                                  </div>
@@ -393,9 +394,9 @@
                                                          data-elementor-lightbox-slideshow="9e9957a"
                                                          data-elementor-lightbox-title="services_05"
                                                          data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTUxNTUsInVybCI6Imh0dHBzOlwvXC9kZW1vLnJzdGhlbWUuY29tXC93b3JkcHJlc3NcL2FidWlsZFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDFcL3NlcnZpY2VzXzA1LmpwZyIsInNsaWRlc2hvdyI6IjllOTk1N2EifQ%3D%3D"
-                                                         href='https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_05.jpg'><img
+                                                         href='{{ asset('images/internal/services_05.jpg') }}'><img
                                                              width="700" height="520"
-                                                             src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_05-700x520.jpg"
+                                                             src="{{ asset('images/internal/services_05.jpg') }}"
                                                              class="attachment-abuild_blog-transparent size-abuild_blog-transparent"
                                                              alt="" decoding="async" /></a>
                                                  </div>
@@ -406,9 +407,9 @@
                                                          data-elementor-lightbox-slideshow="9e9957a"
                                                          data-elementor-lightbox-title="services_06"
                                                          data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTUxNTYsInVybCI6Imh0dHBzOlwvXC9kZW1vLnJzdGhlbWUuY29tXC93b3JkcHJlc3NcL2FidWlsZFwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyNVwvMDFcL3NlcnZpY2VzXzA2LmpwZyIsInNsaWRlc2hvdyI6IjllOTk1N2EifQ%3D%3D"
-                                                         href='https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_06.jpg'><img
+                                                         href='{{ asset('images/internal/services_06.jpg') }}'><img
                                                              width="700" height="520"
-                                                             src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2025/01/services_06-700x520.jpg"
+                                                             src="{{ asset('images/internal/services_06.jpg') }}"
                                                              class="attachment-abuild_blog-transparent size-abuild_blog-transparent"
                                                              alt="" decoding="async" /></a>
                                                  </div>
@@ -450,7 +451,7 @@
 
                                          <div class="rs-social-menu style1 rs-social-sticky-diable">
                                              <ul>
-                                                 <li><a href="#">
+                                                 <li><a href="{{ config('custom.facebook') }}">
                                                          <svg aria-hidden="true"
                                                              class="e-font-icon-svg e-fab-facebook-f"
                                                              viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg">
@@ -460,7 +461,7 @@
                                                          </svg> <span class="social-hover-text"></span>
                                                      </a>
                                                  </li>
-                                                 <li><a href="#">
+                                                 <li><a href="{{ config('custom.instagram') }}">
                                                          <svg aria-hidden="true"
                                                              class="e-font-icon-svg e-fab-instagram"
                                                              viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -470,7 +471,7 @@
                                                          </svg> <span class="social-hover-text"></span>
                                                      </a>
                                                  </li>
-                                                 <li><a href="#">
+                                                 <li><a href="{{ config('custom.twitter') }}">
                                                          <svg aria-hidden="true"
                                                              class="e-font-icon-svg e-fab-x-twitter"
                                                              viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -480,7 +481,7 @@
                                                          </svg> <span class="social-hover-text"></span>
                                                      </a>
                                                  </li>
-                                                 <li><a href="#">
+                                                 <li><a href="{{ config('custom.linkedin') }}">
                                                          <svg aria-hidden="true"
                                                              class="e-font-icon-svg e-fab-linkedin-in"
                                                              viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">

@@ -13,13 +13,12 @@
                          <div class="elementor-widget-container">
                              <div class="hfe-site-logo">
                                  <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                     href="https://demo.rstheme.com/wordpress/abuild">
+                                     href="{{ route('homepage') }}">
                                      <div class="hfe-site-logo-set">
                                          <div class="hfe-site-logo-container">
 
                                              <img class="hfe-site-logo-img elementor-animation-"
-                                                 src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/logo.png"
-                                                 alt="logo" />
+                                                 src="{{ asset('logo_dark.png') }}" alt="logo" />
                                          </div>
                                      </div>
                                  </a>
@@ -67,395 +66,53 @@
                                      <ul id="menu-1-d37dce3" class="hfe-nav-menu dropdownto-left-">
                                          <li id="menu-item-12499-350632"
                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10844 current_page_item current-menu-ancestor current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/"
+                                             <div class="hfe-has-submenu-container"><a href="{{ route('homepage') }}"
                                                      class="hfe-menu-item">Home<span
                                                          class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                              class='ri-arrow-down-s-line'></i> </span><em
                                                          class="rs__menu_sp_dyc"><i
                                                              class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-14909-586495"
-                                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a href="#"
-                                                             class="hfe-sub-menu-item">Multipages<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-12905-489927"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10844 current_page_item hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/"
-                                                                 class="hfe-sub-menu-item hfe-sub-menu-item-active">Construction
-                                                                 (Main)<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-135-244951"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-deck/"
-                                                                 class="hfe-sub-menu-item">Construction Deck<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-14999-457700"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-slab/"
-                                                                 class="hfe-sub-menu-item">Construction Slab<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-16610-846401"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/robotics-automation/"
-                                                                 class="hfe-sub-menu-item">Robotics
-                                                                 Automation<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-1710-606147"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/engineering/"
-                                                                 class="hfe-sub-menu-item">Engineering<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-14997-405180"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/industry/"
-                                                                 class="hfe-sub-menu-item">Industry<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-195-654687"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/oil-gas/"
-                                                                 class="hfe-sub-menu-item">Oil Gas<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                                 <li id="menu-item-14910-907400"
-                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a href="#"
-                                                             class="hfe-sub-menu-item">Onepages<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-15050-776414"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-main-onepage/"
-                                                                 class="hfe-sub-menu-item">Construction Main
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15049-328274"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-deck-onepage/"
-                                                                 class="hfe-sub-menu-item">Construction Deck
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15046-451766"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-slab-onepage/"
-                                                                 class="hfe-sub-menu-item">Construction Slab
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-16611-741525"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/robotics-automation-onepage/"
-                                                                 class="hfe-sub-menu-item">Robotics Automation
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15048-743861"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/engineering-onepage/"
-                                                                 class="hfe-sub-menu-item">Engineering
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15051-790382"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/industry-onepage/"
-                                                                 class="hfe-sub-menu-item">Industry Onepage<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15047-880007"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/oil-gas-onepage/"
-                                                                 class="hfe-sub-menu-item">Oil Gas Onepage<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                             </ul>
                                          </li>
-                                         <li id="menu-item-120-491853"
-                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a href="#"
-                                                     class="hfe-menu-item">Pages<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-4394-742687"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/about-us/"
-                                                         class="hfe-sub-menu-item">About Us<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4853-944619"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/pricing/"
-                                                         class="hfe-sub-menu-item">Pricing<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-6457-456470"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a
-                                                             href="https://demo.rstheme.com/wordpress/abuild/team/"
-                                                             class="hfe-sub-menu-item">Team<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-8637-487251"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/team/"
-                                                                 class="hfe-sub-menu-item">Team<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-8638-192269"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-teams hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/teams/cameron-williamson/"
-                                                                 class="hfe-sub-menu-item">Team Details<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                                 <li id="menu-item-6995-673314"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/testimonial/"
-                                                         class="hfe-sub-menu-item">Testimonial<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4395-833304"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/faq/"
-                                                         class="hfe-sub-menu-item">Faq<em class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15824-639408"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/clients-partners/"
-                                                         class="hfe-sub-menu-item">Clients &#038; Partners<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-4394-742687"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('about') }}" class="hfe-sub-menu-item">About Us<em
+                                                     class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
-                                         <li id="menu-item-128-818313"
-                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/services/"
-                                                     class="hfe-menu-item">Services<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-4159-530379"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/services/"
-                                                         class="hfe-sub-menu-item">Services 01<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15482-637257"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/services-02/"
-                                                         class="hfe-sub-menu-item">Services 02<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15489-551431"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/services-03/"
-                                                         class="hfe-sub-menu-item">Services 03<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4179-780254"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-services menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a
-                                                             href="https://demo.rstheme.com/wordpress/abuild/service/structural-engineering/"
-                                                             class="hfe-sub-menu-item">Service Details<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-4161-698648"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/structural-engineering/"
-                                                                 class="hfe-sub-menu-item">Structural
-                                                                 Engineering<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4162-793376"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/building-renovation/"
-                                                                 class="hfe-sub-menu-item">Building
-                                                                 Renovation<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4163-271718"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/general-contracting/"
-                                                                 class="hfe-sub-menu-item">General
-                                                                 Contracting<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4164-855070"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/repair-expand/"
-                                                                 class="hfe-sub-menu-item">Repair &#038;
-                                                                 Expand<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4165-462706"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/architecture-design/"
-                                                                 class="hfe-sub-menu-item">Architecture
-                                                                 Design<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4166-612793"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/building-contraction/"
-                                                                 class="hfe-sub-menu-item">Building
-                                                                 Contraction<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-4395-833304"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('faq') }}" class="hfe-sub-menu-item">Faq<em
+                                                     class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
-                                         <li id="menu-item-129-557449"
-                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/project/"
-                                                     class="hfe-menu-item">Projects<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-4813-569329"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/project/"
-                                                         class="hfe-sub-menu-item">Projects<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4816-806743"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-portfolios menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a
-                                                             href="https://demo.rstheme.com/wordpress/abuild/portfolios/repair-expand/"
-                                                             class="hfe-sub-menu-item">Project Details<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-4814-415310"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-portfolios hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/portfolios/repair-expand/"
-                                                                 class="hfe-sub-menu-item">Project Details Style
-                                                                 1<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4815-941380"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-portfolios hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/portfolios/general-contracting/"
-                                                                 class="hfe-sub-menu-item">Project Details Style
-                                                                 2<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-15824-639408"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('partner') }}" class="hfe-sub-menu-item">Clients &#038;
+                                                 Partners<em class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
-                                         <li id="menu-item-119-533477"
-                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/blog/"
-                                                     class="hfe-menu-item">Blog<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-15411-347425"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog-grid/"
-                                                         class="hfe-sub-menu-item">Blog Grid<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15412-756112"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog-left/"
-                                                         class="hfe-sub-menu-item">Blog Left<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15413-438426"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog-right/"
-                                                         class="hfe-sub-menu-item">Blog Right<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4895-748232"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog/"
-                                                         class="hfe-sub-menu-item">Blog Standard<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4894-821780"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-post hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/factories-technologies-in-interactive-and-plants/"
-                                                         class="hfe-sub-menu-item">Blog Details<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-4394-742687"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('service.service_get') }}"
+                                                 class="hfe-sub-menu-item">Services<em class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
+
+                                         <li id="menu-item-4394-742687"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('project.project_get') }}"
+                                                 class="hfe-sub-menu-item">Project<em class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
+                                         </li>
+
                                          <li id="menu-item-127-743195"
                                              class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                             <a href="https://demo.rstheme.com/wordpress/abuild/contact/"
-                                                 class="hfe-menu-item">Contact<em class="rs__menu_sp_dyc"><i
+                                             <a href="{{ route('contact') }}" class="hfe-menu-item">Contact<em
+                                                     class="rs__menu_sp_dyc"><i
                                                          class="ri-arrow-right-line"></i></em></a>
                                          </li>
                                      </ul>
@@ -489,7 +146,7 @@
                                          <div class="phone">
                                              <span class="label">Call us any time</span>
 
-                                             <a href="tel:7045550127">(704) 555-0127</a>
+                                             <a href="tel:7045550127">{{ config('custom.phone') }}</a>
                                          </div>
 
 
@@ -515,7 +172,7 @@
                              </div>
 
                              <form role="search" class="bs-search search-form rs_stickys_form" method="get"
-                                 action="https://demo.rstheme.com/wordpress/abuild/">
+                                 action="{{ route('homepage') }}">
                                  <div class="search-wrap">
                                      <label class="screen-reader-text">
                                          Search for: </label>
@@ -560,13 +217,12 @@
                          <div class="elementor-widget-container">
                              <div class="hfe-site-logo">
                                  <a data-elementor-open-lightbox="" class='elementor-clickable'
-                                     href="https://demo.rstheme.com/wordpress/abuild">
+                                     href="{{ route('homepage') }}">
                                      <div class="hfe-site-logo-set">
                                          <div class="hfe-site-logo-container">
 
                                              <img class="hfe-site-logo-img elementor-animation-"
-                                                 src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/12/logo_dark.png"
-                                                 alt="logo_dark" />
+                                                 src="{{ asset('logo_dark.png') }}" alt="logo_dark" />
                                          </div>
                                      </div>
                                  </a>
@@ -613,395 +269,55 @@
                                      <ul id="menu-1-7f29c69" class="hfe-nav-menu dropdownto-left-">
                                          <li id="menu-item-12499-829259"
                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10844 current_page_item current-menu-ancestor current_page_ancestor menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/"
+                                             <div class="hfe-has-submenu-container"><a href="{{ route('homepage') }}"
                                                      class="hfe-menu-item">Home<span
                                                          class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
                                                              class='ri-arrow-down-s-line'></i> </span><em
                                                          class="rs__menu_sp_dyc"><i
                                                              class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-14909-571840"
-                                                     class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a href="#"
-                                                             class="hfe-sub-menu-item">Multipages<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-12905-628463"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-10844 current_page_item hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/"
-                                                                 class="hfe-sub-menu-item hfe-sub-menu-item-active">Construction
-                                                                 (Main)<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-135-507099"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-deck/"
-                                                                 class="hfe-sub-menu-item">Construction Deck<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-14999-944570"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-slab/"
-                                                                 class="hfe-sub-menu-item">Construction Slab<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-16610-357166"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/robotics-automation/"
-                                                                 class="hfe-sub-menu-item">Robotics
-                                                                 Automation<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-1710-269187"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/engineering/"
-                                                                 class="hfe-sub-menu-item">Engineering<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-14997-312439"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/industry/"
-                                                                 class="hfe-sub-menu-item">Industry<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-195-849119"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/oil-gas/"
-                                                                 class="hfe-sub-menu-item">Oil Gas<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                                 <li id="menu-item-14910-528640"
-                                                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a href="#"
-                                                             class="hfe-sub-menu-item">Onepages<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-15050-227991"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-main-onepage/"
-                                                                 class="hfe-sub-menu-item">Construction Main
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15049-494516"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-deck-onepage/"
-                                                                 class="hfe-sub-menu-item">Construction Deck
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15046-319578"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/construction-slab-onepage/"
-                                                                 class="hfe-sub-menu-item">Construction Slab
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-16611-390434"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/robotics-automation-onepage/"
-                                                                 class="hfe-sub-menu-item">Robotics Automation
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15048-304474"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/engineering-onepage/"
-                                                                 class="hfe-sub-menu-item">Engineering
-                                                                 Onepage<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15051-501266"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/industry-onepage/"
-                                                                 class="hfe-sub-menu-item">Industry Onepage<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-15047-660066"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/oil-gas-onepage/"
-                                                                 class="hfe-sub-menu-item">Oil Gas Onepage<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                             </ul>
                                          </li>
-                                         <li id="menu-item-120-817864"
-                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a href="#"
-                                                     class="hfe-menu-item">Pages<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-4394-363498"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/about-us/"
-                                                         class="hfe-sub-menu-item">About Us<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4853-757376"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/pricing/"
-                                                         class="hfe-sub-menu-item">Pricing<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-6457-720548"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a
-                                                             href="https://demo.rstheme.com/wordpress/abuild/team/"
-                                                             class="hfe-sub-menu-item">Team<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-8637-838485"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/team/"
-                                                                 class="hfe-sub-menu-item">Team<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-8638-892106"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-teams hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/teams/cameron-williamson/"
-                                                                 class="hfe-sub-menu-item">Team Details<em
-                                                                     class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                                 <li id="menu-item-6995-393394"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/testimonial/"
-                                                         class="hfe-sub-menu-item">Testimonial<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4395-688104"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/faq/"
-                                                         class="hfe-sub-menu-item">Faq<em class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15824-419012"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/clients-partners/"
-                                                         class="hfe-sub-menu-item">Clients &#038; Partners<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                             </ul>
+
+
+                                         <li id="menu-item-4394-742687"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('about') }}" class="hfe-sub-menu-item">About Us<em
+                                                     class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
-                                         <li id="menu-item-128-586753"
-                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/services/"
-                                                     class="hfe-menu-item">Services<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-4159-211463"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/services/"
-                                                         class="hfe-sub-menu-item">Services 01<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15482-831861"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/services-02/"
-                                                         class="hfe-sub-menu-item">Services 02<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15489-311644"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/services-03/"
-                                                         class="hfe-sub-menu-item">Services 03<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4179-571300"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-services menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a
-                                                             href="https://demo.rstheme.com/wordpress/abuild/service/structural-engineering/"
-                                                             class="hfe-sub-menu-item">Service Details<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-4161-249133"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/structural-engineering/"
-                                                                 class="hfe-sub-menu-item">Structural
-                                                                 Engineering<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4162-875225"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/building-renovation/"
-                                                                 class="hfe-sub-menu-item">Building
-                                                                 Renovation<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4163-235331"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/general-contracting/"
-                                                                 class="hfe-sub-menu-item">General
-                                                                 Contracting<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4164-302218"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/repair-expand/"
-                                                                 class="hfe-sub-menu-item">Repair &#038;
-                                                                 Expand<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4165-337186"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/architecture-design/"
-                                                                 class="hfe-sub-menu-item">Architecture
-                                                                 Design<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4166-850631"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-services hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/service/building-contraction/"
-                                                                 class="hfe-sub-menu-item">Building
-                                                                 Contraction<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-4395-833304"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('faq') }}" class="hfe-sub-menu-item">Faq<em
+                                                     class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
-                                         <li id="menu-item-129-218921"
-                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/project/"
-                                                     class="hfe-menu-item">Projects<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-4813-370211"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/project/"
-                                                         class="hfe-sub-menu-item">Projects<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4816-296462"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-portfolios menu-item-has-children hfe-has-submenu hfe-creative-menu">
-                                                     <div class="hfe-has-submenu-container"><a
-                                                             href="https://demo.rstheme.com/wordpress/abuild/portfolios/repair-expand/"
-                                                             class="hfe-sub-menu-item">Project Details<span
-                                                                 class='hfe-menu-toggle sub-arrow hfe-menu-child-1'><i
-                                                                     class='ri-arrow-down-s-line'></i>
-                                                             </span><em class="rs__menu_sp_dyc"><i
-                                                                     class="ri-arrow-right-line"></i></em></a>
-                                                     </div>
-                                                     <ul class="sub-menu">
-                                                         <li id="menu-item-4814-257831"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-portfolios hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/portfolios/repair-expand/"
-                                                                 class="hfe-sub-menu-item">Project Details
-                                                                 Style 1<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                         <li id="menu-item-4815-372308"
-                                                             class="menu-item menu-item-type-post_type menu-item-object-portfolios hfe-creative-menu">
-                                                             <a href="https://demo.rstheme.com/wordpress/abuild/portfolios/general-contracting/"
-                                                                 class="hfe-sub-menu-item">Project Details
-                                                                 Style 2<em class="rs__menu_sp_dyc"><i
-                                                                         class="ri-arrow-right-line"></i></em></a>
-                                                         </li>
-                                                     </ul>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-15824-639408"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('partner') }}" class="hfe-sub-menu-item">Clients
+                                                 &#038;
+                                                 Partners<em class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
-                                         <li id="menu-item-119-229892"
-                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children parent hfe-has-submenu hfe-creative-menu">
-                                             <div class="hfe-has-submenu-container"><a
-                                                     href="https://demo.rstheme.com/wordpress/abuild/blog/"
-                                                     class="hfe-menu-item">Blog<span
-                                                         class='hfe-menu-toggle sub-arrow hfe-menu-child-0'><i
-                                                             class='ri-arrow-down-s-line'></i> </span><em
-                                                         class="rs__menu_sp_dyc"><i
-                                                             class="ri-arrow-right-line"></i></em></a></div>
-                                             <ul class="sub-menu">
-                                                 <li id="menu-item-15411-937883"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog-grid/"
-                                                         class="hfe-sub-menu-item">Blog Grid<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15412-159521"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog-left/"
-                                                         class="hfe-sub-menu-item">Blog Left<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-15413-851220"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog-right/"
-                                                         class="hfe-sub-menu-item">Blog Right<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4895-190093"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/blog/"
-                                                         class="hfe-sub-menu-item">Blog Standard<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                                 <li id="menu-item-4894-889027"
-                                                     class="menu-item menu-item-type-post_type menu-item-object-post hfe-creative-menu">
-                                                     <a href="https://demo.rstheme.com/wordpress/abuild/factories-technologies-in-interactive-and-plants/"
-                                                         class="hfe-sub-menu-item">Blog Details<em
-                                                             class="rs__menu_sp_dyc"><i
-                                                                 class="ri-arrow-right-line"></i></em></a>
-                                                 </li>
-                                             </ul>
+
+                                         <li id="menu-item-4394-742687"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('service.service_get') }}"
+                                                 class="hfe-sub-menu-item">Services<em class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
                                          </li>
+
+                                         <li id="menu-item-4394-742687"
+                                             class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
+                                             <a href="{{ route('project.project_get') }}"
+                                                 class="hfe-sub-menu-item">Project<em class="rs__menu_sp_dyc"><i
+                                                         class="ri-arrow-right-line"></i></em></a>
+                                         </li>
+
                                          <li id="menu-item-127-165091"
                                              class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu">
-                                             <a href="https://demo.rstheme.com/wordpress/abuild/contact/"
-                                                 class="hfe-menu-item">Contact<em class="rs__menu_sp_dyc"><i
+                                             <a href="{{ route('contact') }}" class="hfe-menu-item">Contact<em
+                                                     class="rs__menu_sp_dyc"><i
                                                          class="ri-arrow-right-line"></i></em></a>
                                          </li>
                                      </ul>
@@ -1035,7 +351,7 @@
                                          <div class="phone">
                                              <span class="label">Call us any time</span>
 
-                                             <a href="tel:7045550127">(704) 555-0127</a>
+                                             <a href="tel:7045550127">+{{ config('custom.phone') }}</a>
                                          </div>
 
 
@@ -1061,7 +377,7 @@
                              </div>
 
                              <form role="search" class="bs-search search-form rs_stickys_form" method="get"
-                                 action="https://demo.rstheme.com/wordpress/abuild/">
+                                 action="">
                                  <div class="search-wrap">
                                      <label class="screen-reader-text">
                                          Search for: </label>

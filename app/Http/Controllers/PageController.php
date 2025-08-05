@@ -13,26 +13,25 @@ class PageController extends Controller
         return view('pages.home');
     }
 
-      public function about()
+    public function about()
     {
         return view('pages.about');
     }
 
-      public function faq()
+    public function faq()
     {
         return view('pages.faq');
     }
 
-      public function contact()
+    public function contact()
     {
         return view('pages.contact');
     }
 
-      public function partner()
+    public function partner()
     {
         return view('pages.partner');
     }
-
 
     public function service_get()
     {
@@ -40,21 +39,29 @@ class PageController extends Controller
         return view('pages.services.index', compact('services'));
     }
 
-      public function service_detail()
+    public function service_detail(Request $request)
     {
-        return view('pages.services.details');
+        $name = $request->query('name');
+
+        $services = include app_path('Datas/services.php');
+
+        // Find service by 'name' (case-sensitive match)
+        $service = collect($services)->firstWhere('name', $name);
+
+        if (!$service) {
+            abort(404, 'Service not found');
+        }
+
+        return view('pages.services.details', compact('service'));
     }
-
-
 
     public function project_get()
     {
         return view('pages.projects.index');
     }
 
-      public function project_detail()
+    public function project_detail()
     {
         return view('pages.projects.details');
     }
-
 }
