@@ -73,10 +73,13 @@
                </section>
                <section id="contact_widget-1" class="widget widget_contact_widget">
                    <ul class="contact-area">
-                       <li class="address1"> <i class="ri-map-pin-line"></i> <span>374 William S Canning Blvd, Fall
-                               River MA Road 2721, USA</span></li>
-                       <li> <i class="ri-phone-line"></i> <a href="tel:8889990000">888 999 0000</a></li>
-                       <li> <i class="ri-mail-send-line"></i> <a href="mailto:abuild@example.com">abuild@example.com</a>
+                       <li class="address1"> <i class="ri-map-pin-line"></i>
+                           <span>{{ config('custom.address') }}</span>
+                       </li>
+                       <li> <i class="ri-phone-line"></i> <a
+                               href="tel:{{ config('custom.phone') }}">{{ config('custom.phone') }}</a></li>
+                       <li> <i class="ri-mail-send-line"></i> <a
+                               href="mailto:{{ config('custom.email') }}">{{ config('custom.email') }}</a>
                        </li>
                    </ul>
 
@@ -85,18 +88,22 @@
 
                    <ul class="footer_social">
                        <li>
-                           <a href="#" target="_blank"><span> <i class="ri-facebook-fill"></i> </span></a>
+                           <a href="{{ config('custom.facebook') }}" target="_blank"><span> <i
+                                       class="ri-facebook-fill"></i> </span></a>
                        </li>
                        <li>
-                           <a href="# " target="_blank"><span> <i class="ri-twitter-x-fill"></i> </span></a>
-                       </li>
-
-                       <li>
-                           <a href="# " target="_blank"><span> <i class="ri-linkedin-fill"></i> </span></a>
+                           <a href="{{ config('custom.twitter') }}" target="_blank"><span> <i
+                                       class="ri-twitter-x-fill"></i> </span></a>
                        </li>
 
                        <li>
-                           <a href="# " target="_blank"><span> <i class="ri-youtube-fill"></i> </span></a>
+                           <a href="{{ config('custom.linkedin') }}" target="_blank"><span> <i
+                                       class="ri-linkedin-fill"></i> </span></a>
+                       </li>
+
+                       <li>
+                           <a href="{{ config('custom.youtube') }}" target="_blank"><span> <i
+                                       class="ri-youtube-fill"></i> </span></a>
                        </li>
 
                    </ul>

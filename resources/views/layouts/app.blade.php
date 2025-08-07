@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US"
+    class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths lenis lenis-smooth">
 
 <head>
     <meta charset="UTF-8" />
@@ -17,9 +18,7 @@
     <link rel="preload" as="font"
         href="https://fonts.gstatic.com/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2"
         crossorigin />
-    <link rel="stylesheet" id="siteground-optimizer-combined-css-d9463f1e692b96fb73f878ded50123d6"
-        href="{{ asset('css/siteground-optimizer-combined.css') }}" media="all" />
-    <link rel="preload" href="{{ asset('css/siteground-optimizer-combined.css') }}" as="style">
+
     <meta name='robots' content='max-image-preview:large' />
 
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -443,11 +442,12 @@
         }
     </style>
 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
 
-<body
-    class="home page-template page-template-elementor_header_footer page page-id-10844 ehf-header ehf-footer ehf-template-abuild ehf-stylesheet-abuild rs-smoother-yes elementor-default elementor-template-full-width elementor-kit-10911 elementor-page elementor-page-10844">
+<body class="@yield('body_att')">
 
     <!--Preloader start here-->
     <div id="pre-load">

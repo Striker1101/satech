@@ -6,6 +6,7 @@ use App\Http\Controllers\PageController;
 Route::get('/', [PageController::class, 'homepage'])->name('homepage');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::post('/contact', [PageController::class, 'contact_post'])->name('contact.store');
 Route::get('/faq', [PageController::class, 'faq'])->name('faq');
 Route::get('/partner', [PageController::class, 'partner'])->name('partner');
 
