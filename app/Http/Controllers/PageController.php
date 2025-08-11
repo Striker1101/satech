@@ -93,7 +93,8 @@ class PageController extends Controller
     public function service_get()
     {
         $services = include app_path('Datas/services.php');
-        return view('pages.services.index', compact('services'));
+        $testimonies = include app_path('Datas/testimonies.php');
+        return view('pages.services.index', compact('services', 'testimonies'));
     }
 
     public function service_detail(Request $request)
@@ -102,23 +103,81 @@ class PageController extends Controller
 
         $services = include app_path('Datas/services.php');
 
-        // Find service by 'name' (case-sensitive match)
+        // Find current service
         $service = collect($services)->firstWhere('name', $name);
 
         if (!$service) {
             abort(404, 'Service not found');
         }
 
-        return view('pages.services.details', compact('service'));
+        $servicesCollection = collect($services)->values(); // Ensure indexed
+        $currentIndex = $servicesCollection->search(fn($s) => $s['id'] === $service['id']);
+
+        // Determine next
+        if ($currentIndex !== false && isset($servicesCollection[$currentIndex + 1])) {
+            $next = $servicesCollection[$currentIndex + 1];
+        } else {
+            $next = $servicesCollection->random();
+        }
+
+        // Determine previous
+        if ($currentIndex !== false && isset($servicesCollection[$currentIndex - 1])) {
+            $prev = $servicesCollection[$currentIndex - 1];
+        } else {
+            $prev = $servicesCollection->random();
+        }
+        $services = include app_path('Datas/services.php');
+
+        return view('pages.services.details', [
+            'service' => $service,
+            'next' => $next,
+            'prev' => $prev,
+            'services' => $services,
+        ]);
     }
 
     public function project_get()
     {
-        return view('pages.projects.index');
+        $projects = include app_path('Datas/projects.php');
+        return view('pages.projects.index', compact('projects'));
     }
 
-    public function project_detail()
+    public function project_detail(Request $request)
     {
-        return view('pages.projects.details');
+        $slug = $request->query('slug');
+
+        $projects = include app_path('Datas/projects.php');
+
+        // Find current project
+        $project = collect($projects)->firstWhere('slug', $slug);
+
+        if (!$project) {
+            abort(404, 'Project not found');
+        }
+
+        $projectsCollection = collect($projects)->values(); // Ensure indexed
+        $currentIndex = $projectsCollection->search(fn($s) => $s['id'] === $project['id']);
+
+        // Determine next
+        if ($currentIndex !== false && isset($projectsCollection[$currentIndex + 1])) {
+            $next = $projectsCollection[$currentIndex + 1];
+        } else {
+            $next = $projectsCollection->random();
+        }
+
+        // Determine previous
+        if ($currentIndex !== false && isset($sprojectsCollection[$currentIndex - 1])) {
+            $prev = $sprojectsCollection[$currentIndex - 1];
+        } else {
+            $prev = $projectsCollection->random();
+        }
+        $projects = include app_path('Datas/projects.php');
+
+        return view('pages.projects.details', [
+            'project' => $project,
+            'next' => $next,
+            'prev' => $prev,
+            'projects' => $projects,
+        ]);
     }
 }

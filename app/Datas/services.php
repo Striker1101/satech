@@ -8,7 +8,34 @@ return [
         'video' => 'videos/services/plumbing.mp4',
         'show' => 'images/internal/services_01.jpg',
         'full_name' => 'Building Renovation ',
+        'fb' =>'',
+        'tw'=>'',
+        'lk' => '',
+         'yt'=> '',
         'desc' => 'We specialize in restoring, upgrading, and modernizing residential and commercial buildings to meet today’s standards while preserving structural integrity and aesthetic value..',
+        'content' => '<h2><strong>Building Renovation</strong></h2>
+<p>
+Building renovation is the process of restoring, improving, or modernizing an existing structure to enhance its functionality, aesthetics, and overall value. Unlike new construction, which starts from scratch, renovation focuses on making the best use of what already exists while integrating new features, materials, and designs. This process can be applied to residential, commercial, or industrial buildings, and it often combines elements of repair, replacement, and redesign.
+</p>
+<p>
+One of the key reasons for building renovation is to extend the life of a property. Over time, buildings naturally deteriorate due to wear and tear, weather exposure, and outdated materials. Renovation addresses these issues by repairing structural damage, replacing old fixtures, and upgrading systems such as plumbing, electrical wiring, and insulation. This not only improves safety but also ensures the building complies with modern building codes and standards.
+</p>
+<p>
+Aesthetics also play a major role in renovation projects. Whether it is updating a home’s interior design to reflect modern trends or refreshing a commercial building’s facade to attract more customers, renovations can transform the overall look and feel of a property. Fresh paint, new flooring, improved lighting, and updated layouts can significantly improve the comfort and appeal of a space. For businesses, a well-renovated environment can boost brand image and customer experience.
+</p>
+<p>
+Functionality is another important consideration. Renovations often aim to make spaces more efficient and adaptable to current needs. For example, homeowners may renovate to create an open-plan kitchen, add an extra bathroom, or convert unused areas like basements into functional living spaces. In office settings, renovations may focus on improving workflow by reconfiguring layouts, upgrading technology infrastructure, and enhancing energy efficiency.
+</p>
+<p>
+Energy efficiency is increasingly becoming a driving factor for renovations. Many older buildings were constructed without the energy-saving technologies available today. Renovating with energy efficiency in mind can include adding better insulation, installing energy-efficient windows, upgrading to LED lighting, and incorporating renewable energy sources such as solar panels. These improvements not only reduce environmental impact but also lower long-term utility costs.
+</p>
+<p>
+Before starting a renovation, careful planning is essential. This includes setting a clear budget, defining the scope of work, obtaining necessary permits, and hiring qualified contractors. Proper planning helps avoid costly mistakes and ensures the project runs smoothly. It is also important to conduct thorough inspections to identify hidden issues such as water damage, structural weaknesses, or pest infestations that may need to be addressed during the renovation.
+</p>
+<p>
+Ultimately, building renovation is an investment that enhances the quality, safety, and value of a property. Whether motivated by the need for repairs, a desire for modernization, or the pursuit of greater efficiency, renovation allows property owners to breathe new life into their spaces while preserving their unique character. When done thoughtfully, it can transform a building into a more beautiful, functional, and sustainable environment for years to come.
+</p>
+',
         'svg' => '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                                         viewBox="0 0 40 40" fill="none">
                                                         <path
@@ -26,7 +53,37 @@ return [
         'video' => 'videos/services/electrical.mp4',
         'show' => 'images/internal/services_03.jpg',
         'full_name' => 'Structural Engineering',
+        'fb' =>'',
+        'tw'=>'',
+        'lk' => '',
+         'yt'=> '',
         'desc' => 'Focused on the design, analysis, and construction of safe, stable structures, ensuring buildings can withstand loads and environmental stresses.',
+        'content' => '<h2><strong>Structural Engineering</strong></h2>
+<p>
+Structural engineering is a specialized branch of civil engineering that focuses on the design, analysis, and maintenance of structures that can safely withstand the forces and stresses of their environment. These structures include buildings, bridges, towers, dams, stadiums, and other infrastructures essential to modern life. The primary goal of structural engineering is to ensure that structures are safe, stable, durable, and efficient throughout their lifespan.
+</p>
+<p>
+At the core of structural engineering is the study of how forces such as weight, wind, earthquakes, temperature changes, and even human use affect a structure. Engineers use principles of physics, mathematics, and material science to design frameworks that distribute these forces in a way that prevents collapse or failure. Every structure must be designed to support both “dead loads” (permanent, static weight like the structure itself) and “live loads” (temporary, changing weight such as people, furniture, or vehicles).
+</p>
+<p>
+Materials play a critical role in structural engineering. Different materials—such as steel, concrete, timber, and composite materials—have unique strengths, weaknesses, and costs. Structural engineers carefully select and combine materials based on the requirements of the project, environmental conditions, and budget constraints. For example, steel is often used for its high strength-to-weight ratio, while reinforced concrete offers excellent durability and versatility for various shapes and forms.
+</p>
+<p>
+The design process in structural engineering involves both creativity and precision. Engineers begin with conceptual designs that align with the architect’s vision, then refine them through detailed calculations, computer simulations, and stress tests. Advanced software tools like finite element analysis (FEA) allow engineers to predict how structures will perform under different scenarios, identifying potential weaknesses before construction begins.
+</p>
+<p>
+Safety is always the top priority in structural engineering. Engineers must comply with local and international building codes, which set minimum safety standards for structural design. These codes consider factors such as seismic zones, wind speeds, snow loads, and fire resistance. In high-risk areas, such as earthquake-prone regions, structural engineers may incorporate special reinforcements, shock-absorbing systems, or flexible joints to minimize damage during natural disasters.
+</p>
+<p>
+Structural engineering is not only about new construction—it also involves the assessment and rehabilitation of existing structures. Over time, buildings and infrastructures may suffer from wear, corrosion, foundation settlement, or environmental damage. Engineers inspect these structures, diagnose problems, and design repairs or reinforcements to restore safety and extend their service life.
+</p>
+<p>
+In today’s world, sustainability is becoming an important aspect of structural engineering. Engineers are increasingly seeking ways to reduce the environmental impact of their designs by using recycled materials, optimizing structural efficiency, and incorporating renewable energy solutions. Green building certifications, such as LEED, often require structural designs that minimize waste and maximize energy performance.
+</p>
+<p>
+Overall, structural engineering is a vital profession that combines scientific knowledge, technical skill, and innovative thinking to create the frameworks that support our daily lives. Whether designing iconic skyscrapers, maintaining historical landmarks, or ensuring the safety of bridges and dams, structural engineers play a crucial role in shaping a safe, functional, and sustainable built environment.
+</p>
+',
         'svg' => '<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                                         viewBox="0 0 40 40" fill="none">
                                                         <path
@@ -44,7 +101,37 @@ return [
         'video' => 'videos/services/painting.mp4',
         'show' => 'images/internal/services_02.jpg',
         'full_name' => 'Architecture Design',
+        'fb' =>'',
+        'tw'=>'',
+        'lk' => '',
+         'yt'=> '',
         'desc' => ' Creative and technical planning of buildings and spaces, blending aesthetics, functionality, and structural integrity to meet client and environmental needs.',
+        'content' => '<h2><strong>Architecture Design</strong></h2>
+<p>
+Architecture design is the process of planning and creating buildings and spaces that are both functional and aesthetically pleasing. It combines art and science to produce structures that meet human needs, reflect culture, and fit their environment. From homes to commercial buildings, architecture shapes how people live, work, and interact.
+</p>
+<p>
+Architects begin by understanding the client’s requirements, budget, and site conditions. They develop concepts through sketches and models, refining ideas into detailed plans that guide construction. Good design balances beauty, safety, usability, and sustainability.
+</p>
+<p>
+A key part of architecture design is aesthetics—choosing forms, materials, colors, and layouts that create a desired look and feel. Architects consider how light, space, and proportions affect people’s experience. Whether modern or traditional, the design aims to inspire and function well.
+</p>
+<p>
+Functionality ensures the building serves its purpose efficiently. This includes practical layouts, proper ventilation, natural lighting, and accessibility. Well-designed spaces improve comfort and productivity for occupants.
+</p>
+<p>
+Materials are selected for durability, cost, and environmental impact. Sustainable architecture increasingly uses eco-friendly materials, energy-efficient systems, and green technologies to reduce environmental footprint and operating costs.
+</p>
+<p>
+Technology plays a growing role in architecture design. Tools like 3D modeling, Building Information Modeling (BIM), and virtual reality help architects visualize projects, detect problems early, and collaborate with engineers and contractors.
+</p>
+<p>
+Environmental responsibility is central today. Architects incorporate features like passive solar design, rainwater harvesting, and renewable energy to create buildings that minimize harm to the planet while maximizing comfort.
+</p>
+<p>
+In summary, architecture design shapes the built environment by combining creativity and technical skill. It transforms ideas into spaces that are safe, functional, and beautiful—enhancing quality of life and leaving a lasting legacy.
+</p>
+',
         'svg' => '<svg xmlns="http://www.w3.org/2000/svg" width="42" height="36"
                                                         viewBox="0 0 42 36" fill="none">
                                                         <path
@@ -65,7 +152,37 @@ return [
         'video' => 'videos/services/painting.mp4',
         'show' => 'images/internal/services_04.jpg',
         'full_name' => 'Building Construction',
+        'fb' =>'',
+        'tw'=>'',
+        'lk' => '',
+         'yt'=> '',
         'desc' => 'The process of assembling materials to create residential, commercial, or industrial structures, ensuring safety, durability, and compliance with standards.',
+        'content' => '<h2><strong>Architecture Design</strong></h2>
+<p>
+Architecture design is the creative and technical process of planning, conceptualizing, and creating structures that are both functional and visually appealing. It goes beyond simply constructing buildings—it involves shaping environments that meet human needs, reflect cultural values, and harmonize with their surroundings. From residential homes to skyscrapers, museums, and urban spaces, architecture design plays a key role in how people experience and interact with the built world.
+</p>
+<p>
+At its core, architecture design balances aesthetics, functionality, and structural integrity. Architects work closely with clients to understand their needs, lifestyle, budget, and preferences. They then translate these requirements into design concepts that are practical, safe, and inspiring. The process often begins with sketches and conceptual drawings, which evolve into detailed blueprints, 3D models, and technical specifications for construction.
+</p>
+<p>
+Aesthetic considerations are central to architectural design. This includes the choice of styles, colors, shapes, materials, and proportions that define the character of a structure. Whether the goal is to create a sleek modern building with clean lines or to preserve the charm of a historical style, architects use design principles to evoke emotions, convey identity, and create lasting impressions.
+</p>
+<p>
+Functionality is equally important. Good architecture design ensures that spaces are efficient, comfortable, and suited to their intended purposes. This may involve optimizing layouts for natural light, ventilation, and accessibility, as well as considering how people will move through and use the space on a daily basis. For example, in commercial spaces, architects design layouts that enhance workflow and customer experience, while in homes, they focus on creating cozy, livable environments.
+</p>
+<p>
+Materials play a vital role in architecture design. Each material—such as concrete, wood, glass, steel, or stone—offers unique qualities in terms of appearance, durability, and sustainability. Architects choose materials that complement the design vision while meeting structural requirements and environmental considerations. Sustainable architecture often emphasizes locally sourced, recyclable, and energy-efficient materials to reduce the environmental footprint.
+</p>
+<p>
+Technology has transformed architecture design in recent years. Tools like Building Information Modeling (BIM) and 3D rendering software allow architects to visualize projects in detail before construction begins, making it easier to detect issues, improve designs, and collaborate with engineers and contractors. Virtual reality (VR) is also increasingly used to give clients immersive previews of their future spaces.
+</p>
+<p>
+Environmental responsibility is becoming a major priority in architecture design. Architects are integrating green building practices such as passive solar design, rainwater harvesting, rooftop gardens, and renewable energy systems. The goal is to create buildings that not only meet human needs but also contribute to a healthier planet. Certifications like LEED and BREEAM set benchmarks for environmentally friendly architectural practices.
+</p>
+<p>
+In essence, architecture design is about creating spaces that inspire, function efficiently, and stand the test of time. It is both an art and a science, requiring creativity, technical knowledge, and a deep understanding of human behavior. Well-executed architectural design can transform communities, shape skylines, and leave a lasting legacy for future generations.
+</p>
+',
         'svg' => '<svg xmlns="http://www.w3.org/2000/svg"
                                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
                                                         height="40" viewBox="0 0 40 40" fill="none">
@@ -98,7 +215,37 @@ return [
         'video' => 'videos/services/plumbing.mp4',
         'show' => 'images/internal/services_05.jpg',
         'full_name' => 'Repair & Expand',
+        'fb' =>'',
+        'tw'=>'',
+        'lk' => '',
+         'yt'=> '',
         'desc' => 'Focused on fixing structural issues and enhancing existing buildings by adding new spaces or features, improving functionality and value.',
+        'content' => '<h2><strong>Repair &amp; Expansion</strong></h2>
+<p>
+Repair and expansion are essential processes in maintaining and improving buildings, ensuring they remain safe, functional, and adaptable to changing needs. While repair focuses on restoring damaged or deteriorated parts of a structure, expansion involves adding new spaces or features to accommodate growth and enhance usability. Together, these services allow property owners to preserve the value of their investment while adapting to new demands.
+</p>
+<p>
+Repairs address a wide range of issues, from minor fixes to major structural work. Common repair tasks include patching leaks, replacing worn-out roofing, fixing cracks in walls, restoring damaged flooring, and repairing faulty plumbing or electrical systems. Timely repairs prevent minor issues from escalating into costly problems and ensure that the building continues to meet safety standards. For example, fixing a small roof leak promptly can prevent water damage, mold growth, and structural weakening.
+</p>
+<p>
+Structural repairs are particularly important for the stability and safety of a building. These may involve reinforcing foundations, replacing corroded steel supports, repairing concrete beams, or addressing issues caused by settlement or seismic activity. Skilled professionals assess the root cause of the problem before recommending solutions, ensuring repairs are durable and effective.
+</p>
+<p>
+Expansion projects, on the other hand, focus on increasing the size or functionality of a building. This could mean adding extra rooms to a home, constructing a new office wing, building additional floors, or extending a warehouse for increased storage capacity. Expansions can dramatically improve how a building is used, making it more suitable for growing families, expanding businesses, or evolving community needs.
+</p>
+<p>
+When planning an expansion, it is important to consider factors such as the building’s existing structure, available land space, local zoning regulations, and the intended purpose of the new area. A well-designed expansion seamlessly integrates with the original building, both visually and functionally. Architects and engineers work together to ensure the new addition is structurally sound, aesthetically consistent, and compliant with all safety codes.
+</p>
+<p>
+Repair and expansion often go hand in hand. For example, when adding a new section to a building, it may be necessary to repair or upgrade existing systems—such as electrical wiring, plumbing, or HVAC—to handle the increased demand. Similarly, during major repairs, property owners may take the opportunity to expand and improve certain areas, making the most of the construction process.
+</p>
+<p>
+Modern repair and expansion projects often incorporate sustainable practices. This might include using recycled materials, upgrading insulation for energy efficiency, or installing energy-saving systems such as LED lighting and solar panels. Not only do these measures reduce environmental impact, but they can also lower long-term operating costs.
+</p>
+<p>
+In summary, repair and expansion are vital for keeping buildings functional, safe, and ready to meet future needs. Whether it’s fixing urgent issues to restore a structure’s integrity or adding new spaces to support growth, these services ensure that buildings continue to serve their purpose effectively. With careful planning, professional execution, and attention to detail, repair and expansion projects can significantly enhance both the value and usability of any property.
+</p>
+',
         'svg' => '<svg xmlns="http://www.w3.org/2000/svg"
                                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
                                                         height="40" viewBox="0 0 40 40" fill="none">
@@ -131,7 +278,40 @@ return [
         'video' => 'videos/services/painting.mp4',
         'show' => 'images/internal/services_06.jpg',
         'full_name' => 'General Contracting',
+        'fb' =>'',
+        'tw'=>'',
+        'lk' => '',
+         'yt'=> '',
         'desc' => 'Managing and overseeing construction projects from start to finish, coordinating subcontractors, materials, and schedules to ensure timely and quality delivery..',
+        'content' => '<h2><strong>General Contracting</strong></h2>
+<p>
+General contracting is a comprehensive service in the construction industry that involves managing and overseeing all aspects of a building project from start to finish. A general contractor acts as the primary point of responsibility, coordinating with various stakeholders, hiring subcontractors, procuring materials, and ensuring that the project is completed on time, within budget, and to the required quality standards.
+</p>
+<p>
+The role of a general contractor begins with understanding the client’s needs, project specifications, and design plans. Once the scope is clear, the contractor develops a detailed project plan, schedules tasks, and allocates resources effectively. They also ensure that all necessary permits and licenses are obtained before construction begins, helping clients navigate the often-complex regulatory requirements.
+</p>
+<p>
+One of the main responsibilities of a general contractor is coordinating subcontractors and specialists, such as electricians, plumbers, carpenters, masons, and painters. By managing these professionals, the contractor ensures that each phase of the project is executed efficiently and in the correct sequence. This prevents delays, reduces errors, and promotes smooth workflow across different trades.
+</p>
+<p>
+Procurement is another critical aspect of general contracting. Contractors source high-quality materials, negotiate prices, and ensure timely delivery to the job site. They balance cost-effectiveness with durability and performance, helping clients get the best value without compromising on quality. In many cases, their industry connections allow them to secure better deals and access to specialized materials.
+</p>
+<p>
+Quality control is at the heart of general contracting. The contractor is responsible for making sure all work meets the specified design, safety codes, and industry standards. They conduct regular inspections, address any issues promptly, and make adjustments as needed to maintain the integrity of the project. This commitment to quality helps avoid costly repairs or modifications after project completion.
+</p>
+<p>
+Safety is a top priority for any general contractor. Construction sites can present numerous hazards, so contractors enforce strict safety protocols, provide necessary protective equipment, and ensure all workers are trained in safe practices. By adhering to health and safety regulations, they protect workers, clients, and the public.
+</p>
+<p>
+Time management is another critical factor in general contracting. A skilled contractor carefully plans the project timeline and monitors progress closely to prevent delays. If unforeseen challenges arise—such as weather disruptions, supply shortages, or unexpected structural issues—they adapt quickly, revising schedules and coordinating solutions to keep the project on track.
+</p>
+<p>
+General contracting also extends beyond construction to include communication and client relations. Contractors keep clients updated on progress, address concerns, and ensure transparency in every stage of the project. This open communication builds trust and helps ensure that the final outcome aligns with the client’s expectations.
+</p>
+<p>
+In essence, general contracting is about delivering a complete, hassle-free construction experience. By managing every detail—from initial planning to final handover—a general contractor ensures that projects are built to last, meet all requirements, and are completed with professionalism and efficiency. For clients, this means peace of mind, knowing their investment is in capable hands.
+</p>
+',
         'svg' => ' <svg xmlns="http://www.w3.org/2000/svg"
                                                         xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
                                                         height="40" viewBox="0 0 40 40" fill="none">

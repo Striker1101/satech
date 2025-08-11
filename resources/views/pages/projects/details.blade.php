@@ -26,7 +26,7 @@
                         <div class="hfe-page-title hfe-page-title-wrapper elementor-widget-heading">
 
                             <h1 class="elementor-heading-title elementor-size">
-                                Repair &amp; Expand </h1>
+                                {{ $project['name'] }} </h1>
 
                         </div>
                     </div>
@@ -38,19 +38,19 @@
                             <div class="breadcrumbs-inner">
                                 <!-- Breadcrumb NavXT 7.4.1 -->
                                 <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage"
-                                        title="Go to Abuild Construction WordPress Theme."
-                                        href="https://demo.rstheme.com/wordpress/abuild" class="home"><span
-                                            property="name">Home</span></a>
+                                        title="Go to Abuild Construction WordPress Theme." href="{{ route('homepage') }}"
+                                        class="home"><span property="name">Home</span></a>
                                     <meta property="position" content="1">
                                 </span> &gt; <span property="itemListElement" typeof="ListItem"><a property="item"
                                         typeof="WebPage" title="Go to the Building Portfolio Categories archives."
-                                        href="https://demo.rstheme.com/wordpress/abuild/portfolios-category/building/"
-                                        class="taxonomy portfolios-category"><span property="name">Building</span></a>
+                                        href="{{ route('project.project_detail') }}?slug={{ $project['slug'] }}"
+                                        class="taxonomy portfolios-category"><span
+                                            property="name">{{ $project['slug'] }}</span></a>
                                     <meta property="position" content="2">
                                 </span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name"
-                                        class="post post-portfolios current-item">Repair &amp; Expand</span>
+                                        class="post post-portfolios current-item">{{ $project['name'] }}</span>
                                     <meta property="url"
-                                        content="https://demo.rstheme.com/wordpress/abuild/portfolios/repair-expand/">
+                                        content="{ route('project.project_detail') }}?slug={{ $project['slug'] }}">
                                     <meta property="position" content="3">
                                 </span>
                             </div>
@@ -74,8 +74,8 @@
                                 <div class="rs-image no ruler_image_ ruler_position_ scroll_reveal reveal_left reveal-active"
                                     style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
                                     <img decoding="async" class="rs-multi-image  reverse- blend_unset"
-                                        src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/10/pro-details.jpg"
-                                        alt="pro-details" style="transform: translate(0px, 0px);">
+                                        src="{{ asset($project['show']) }}" alt="pro-details"
+                                        style="transform: translate(0px, 0px);">
                                 </div>
 
                             </div>
@@ -97,7 +97,7 @@
                                             <div class="title-inner">
                                                 <span class="sub-text">
                                                     Clients: </span>
-                                                <h6 class="title rs-split-text-disable ">clinex mex</h6>
+                                                <h6 class="title rs-split-text-disable ">{{ $project['client'] }}</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +113,7 @@
                                             <div class="title-inner">
                                                 <span class="sub-text">
                                                     Category: </span>
-                                                <h6 class="title rs-split-text-disable ">Industry &amp; Factory</h6>
+                                                <h6 class="title rs-split-text-disable ">{{ $project['category'] }}</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +129,7 @@
                                             <div class="title-inner">
                                                 <span class="sub-text">
                                                     Timeframe: </span>
-                                                <h6 class="title rs-split-text-disable ">August 05, 2024</h6>
+                                                <h6 class="title rs-split-text-disable ">{{ $project['timeframe'] }}</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +145,7 @@
                                             <div class="title-inner">
                                                 <span class="sub-text">
                                                     Website Link: </span>
-                                                <h6 class="title rs-split-text-disable ">www.onnat.com</h6>
+                                                <h6 class="title rs-split-text-disable ">{{ $project['link'] }}</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -154,18 +154,6 @@
                         </div>
                         <div class="no-position  rs-sticky-default elementor-element elementor-element-3915b69c e-con-full e-flex e-con e-child"
                             data-id="3915b69c" data-element_type="container">
-                            <div class="elementor-element elementor-element-4100bddb elementor-widget__width-initial elementor-widget-mobile__width-inherit gsap-move-no elementor-widget elementor-widget-rs-heading"
-                                data-id="4100bddb" data-element_type="widget" data-widget_type="rs-heading.default">
-                                <div class="elementor-widget-container">
-
-                                    <div class="prelements-heading default    animate-">
-                                        <div class="title-inner">
-                                            <h3 class="title rs-split-text-disable ">Toshiba unveils electric atalyst
-                                                technology for carbon recycling.</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="elementor-element elementor-element-3907b3fa elementor-widget__width-initial elementor-widget-mobile__width-inherit gsap-move-no elementor-widget elementor-widget-rs-heading"
                                 data-id="3907b3fa" data-element_type="widget" data-widget_type="rs-heading.default">
                                 <div class="elementor-widget-container">
@@ -175,357 +163,84 @@
 
                                         </div>
                                         <div class="description">
-                                            <p>Phasellus non libero vel sapien consectetur lacinia in vitae nisl. Aliquam
-                                                eget porta urna, eu hendrerit tellus. Lorem ipsum dolor sit amet,
-                                                consectetur adipiscing elit. Vestibulum dignissim nisl in tortor tristique,
-                                                et ornare nisl vulputate. Proin accumsan nibh a eros fermentum, sed luctus
-                                                nunc facilisis. Phasellus vulputate diam quis fermentum auctor. Curabitur
-                                                volutpat venenatis sodales. In fringilla justo vitae odio malesuada, eget
-                                                viverra urna egestas.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-element elementor-element-7feefc3e elementor-widget__width-initial elementor-widget-mobile__width-inherit gsap-move-no elementor-widget elementor-widget-rs-heading"
-                                data-id="7feefc3e" data-element_type="widget" data-widget_type="rs-heading.default">
-                                <div class="elementor-widget-container">
-
-                                    <div class="prelements-heading default    animate-">
-                                        <div class="title-inner">
-
-                                        </div>
-                                        <div class="description">
-                                            <p>Nullam dapibus faucibus lorem. Mauris ullamcorper, lectus non imperdiet
-                                                tempus, arcu justo blandit ante, et venenatis neque orci placerat diam.
-                                                Pellentesque mollis tincidunt rhoncus. Integer non interdum sapien. Ut
-                                                posuere interdum lacus, vitae euismod sem ultricies eget. Donec posuere leo
-                                                sed porta venenatis. Aenean faucibus.</p>
+                                            <p>{!! $project['content'] !!}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="no-position  rs-sticky-default elementor-element elementor-element-3041980b e-con-full e-flex e-con e-child"
-                            data-id="3041980b" data-element_type="container">
-                            <div class="no-position  rs-sticky-default elementor-element elementor-element-1e7c7d68 e-con-full e-flex e-con e-child"
-                                data-id="1e7c7d68" data-element_type="container">
-                                <div class="no-position  rs-sticky-default elementor-element elementor-element-2edc5599 e-con-full e-flex e-con e-child"
-                                    data-id="2edc5599" data-element_type="container">
-                                    <div class="elementor-element elementor-element-78b925ff gsap-move-no elementor-widget elementor-widget-rs-image"
-                                        data-id="78b925ff" data-element_type="widget"
-                                        data-widget_type="rs-image.default">
-                                        <div class="elementor-widget-container">
 
-                                            <div class="rs-image no ruler_image_no ruler_position_ scroll_reveal reveal_left reveal-active"
-                                                style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                                                <img decoding="async" class="rs-multi-image  reverse- blend_unset"
-                                                    src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/10/portfolio-img1.png"
-                                                    alt="portfolio-img1" style="transform: translate(0px, 0px);">
-                                            </div>
-
-                                        </div>
-                                    </div>
+                        <div class="media-gallery">
+                            <div class="images">
+                                <h3>Images</h3>
+                                <div class="image-list">
+                                    @foreach ($project['images'] as $image)
+                                        <img src="{{ asset($image) }}" alt="Project Image" />
+                                    @endforeach
                                 </div>
-                                <div class="no-position  rs-sticky-default elementor-element elementor-element-25248e5b e-con-full e-flex e-con e-child"
-                                    data-id="25248e5b" data-element_type="container">
-                                    <div class="elementor-element elementor-element-78935756 gsap-move-no elementor-widget elementor-widget-rs-image"
-                                        data-id="78935756" data-element_type="widget"
-                                        data-widget_type="rs-image.default">
-                                        <div class="elementor-widget-container">
+                            </div>
 
-                                            <div class="rs-image no ruler_image_no ruler_position_ scroll_reveal reveal_left reveal-active"
-                                                style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                                                <img decoding="async" class="rs-multi-image  reverse- blend_unset"
-                                                    src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/10/portfolio-img2.png"
-                                                    alt="portfolio-img2" style="transform: translate(0px, 0px);">
-                                            </div>
-
-                                        </div>
-                                    </div>
+                            <div class="videos">
+                                <h3>Videos</h3>
+                                <div class="video-list">
+                                    @foreach ($project['videos'] as $video)
+                                        <video controls>
+                                            <source src="{{ asset($video) }}" type="video/mp4" />
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    @endforeach
                                 </div>
                             </div>
                         </div>
-                        <div class="no-position  rs-sticky-default elementor-element elementor-element-4b3bdd2a e-con-full e-flex e-con e-child"
-                            data-id="4b3bdd2a" data-element_type="container">
-                            <div class="no-position  rs-sticky-default elementor-element elementor-element-476f4137 e-con-full e-flex e-con e-child"
-                                data-id="476f4137" data-element_type="container">
-                                <div class="no-position  rs-sticky-default elementor-element elementor-element-14de3705 e-con-full e-flex e-con e-child"
-                                    data-id="14de3705" data-element_type="container">
-                                    <div class="elementor-element elementor-element-45c5df7b gsap-move-no elementor-widget elementor-widget-rs-heading"
-                                        data-id="45c5df7b" data-element_type="widget"
-                                        data-widget_type="rs-heading.default">
-                                        <div class="elementor-widget-container">
 
-                                            <div class="prelements-heading default    animate-">
-                                                <div class="title-inner">
-                                                    <h3 class="title rs-split-text-disable ">The Challenge Of Project</h3>
-                                                </div>
-                                                <div class="description">
-                                                    <p>Phasellus non libero vel sapien consectetur lacinia in vitae nisl.
-                                                        Aliquam eget porta urna, eu hendrerit tellus. Lorem ipsum dolor sit
-                                                        amet, consectetur adipiscing elit. Vestibulum dignissim nisl in
-                                                        tortor tristique, et ornare nisl vulputate. Proin accumsan nibh a
-                                                        eros fermentum, sed luctus nunc facilisis. Phasellus vulputate diam
-                                                        quis fermentum auctor. Curabitur volutpat venenatis sodales. In
-                                                        fringilla justo vitae odio malesuada, eget viverra urna egestas.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <style>
+                            .media-gallery {
+                                display: flex;
+                                gap: 40px;
+                                flex-wrap: wrap;
+                            }
+
+                            .images,
+                            .videos {
+                                flex: 1 1 300px;
+                            }
+
+                            .image-list {
+                                display: flex;
+                                gap: 15px;
+                                flex-wrap: wrap;
+                            }
+
+                            .image-list img {
+                                width: 150px;
+                                height: 100px;
+                                object-fit: cover;
+                                border-radius: 6px;
+                                box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+                                cursor: pointer;
+                                transition: transform 0.2s ease;
+                            }
+
+                            .image-list img:hover {
+                                transform: scale(1.05);
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+                            }
+
+                            .video-list video {
+                                width: 100%;
+                                max-width: 500px;
+                                border-radius: 6px;
+                                box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+                            }
+                        </style>
+
                     </div>
                 </div>
                 <div class="no-position  rs-sticky-default elementor-element elementor-element-559f0182 e-flex e-con-boxed e-con e-child"
                     data-id="559f0182" data-element_type="container">
                     <div class="e-con-inner">
-                        <div class="no-position  rs-sticky-default elementor-element elementor-element-d8155b e-con-full e-flex e-con e-child"
-                            data-id="d8155b" data-element_type="container">
-                            <div class="elementor-element elementor-element-69d17ee3 gsap-move-no elementor-widget elementor-widget-rs-divider"
-                                data-id="69d17ee3" data-element_type="widget" data-widget_type="rs-divider.default">
-                                <div class="elementor-widget-container">
-
-                                    <div class="rs-divider"> </div>
-
-                                </div>
-                            </div>
-                            <div class="no-position  rs-sticky-default elementor-element elementor-element-517db130 e-con-full e-flex e-con e-child"
-                                data-id="517db130" data-element_type="container">
-                                <div class="no-position  elementor-element elementor-element-27cd0760 e-con-full e-flex e-con e-child"
-                                    data-id="27cd0760" data-element_type="container">
-                                    <div class="no-position  elementor-element elementor-element-37b11df9 e-con-full e-flex e-con e-child"
-                                        data-id="37b11df9" data-element_type="container">
-                                        <div class="elementor-element elementor-element-700f1d5f elementor-widget__width-auto gsap-move-no elementor-widget elementor-widget-image"
-                                            data-id="700f1d5f" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="124" height="94"
-                                                    src="https://demo.rstheme.com/wordpress/abuild/wp-content/uploads/2024/10/quate-stroke.svg"
-                                                    class="attachment-full size-full wp-image-4016" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-529cff79 gsap-move-no elementor-widget elementor-widget-rs-heading"
-                                            data-id="529cff79" data-element_type="widget"
-                                            data-widget_type="rs-heading.default">
-                                            <div class="elementor-widget-container">
-
-                                                <div class="prelements-heading default    animate-">
-                                                    <div class="title-inner">
-
-                                                    </div>
-                                                    <div class="description">
-                                                        <p>Worker at abuild</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="no-position  elementor-element elementor-element-29bd6516 e-con-full e-flex e-con e-child"
-                                        data-id="29bd6516" data-element_type="container">
-                                        <div class="elementor-element elementor-element-7e25b894 gsap-move-no elementor-widget elementor-widget-rs-divider"
-                                            data-id="7e25b894" data-element_type="widget"
-                                            data-widget_type="rs-divider.default">
-                                            <div class="elementor-widget-container">
-
-                                                <div class="rs-divider"> </div>
-
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-160cf162 gsap-move-no elementor-widget elementor-widget-heading"
-                                            data-id="160cf162" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-heading-title elementor-size-default">fantastic
-                                                    experience. They truly understood&ZeroWidthSpace;</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-2fc8f5c2 gsap-move-no elementor-widget elementor-widget-rs-heading"
-                                    data-id="2fc8f5c2" data-element_type="widget" data-widget_type="rs-heading.default">
-                                    <div class="elementor-widget-container">
-
-                                        <div class="prelements-heading default    animate-">
-                                            <div class="title-inner">
-
-                                            </div>
-                                            <div class="description">
-                                                <p>&nbsp;our vision and turned our dream home into a reality. The attention
-                                                    to detail and dedication were The team and growth work.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-73621be6 gsap-move-no elementor-widget elementor-widget-rs-heading"
-                            data-id="73621be6" data-element_type="widget" data-widget_type="rs-heading.default">
-                            <div class="elementor-widget-container">
-
-                                <div class="prelements-heading default    animate-">
-                                    <div class="title-inner">
-                                        <h3 class="title rs-split-text-disable ">Frequently asked questions</h3>
-                                    </div>
-                                    <div class="description">
-                                        <p>Etiam non ex enim. Proin sed dictum risus, ac molestie leo. Donec ut vehicula
-                                            augue, at cursus nunc. Phasellus auctor turpis non leo malesuada, rhoncus
-                                            fringilla felis interdum. Praesent porttitor purus turpis, vitae interdum justo
-                                            placerat in. Cras consectetur sapien nec massa semper fermentum.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-3f439491 gsap-move-no elementor-widget elementor-widget-rs-accordions-custom"
-                            data-id="3f439491" data-element_type="widget"
-                            data-widget_type="rs-accordions-custom.default">
-                            <div class="elementor-widget-container">
-
-                                <div class="rs-accordion-area accordion style1" id="rs_accordion_inner_17723">
-
-                                    <div class="accordion-item active">
-                                        <div class="accordion-header" id="heading34314">
-                                            <div class="accordion-button " data-bs-toggle="collapse"
-                                                data-bs-target="#collapse_34314" aria-controls="collapse_34314">
-                                                <span class="elementor-accordion-icon elementor-accordion-icon-left"
-                                                    aria-hidden="true">
-                                                    <span class="elementor-accordion-icon-closed"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="18"
-                                                            height="18" viewBox="0 0 18 18" fill="none">
-                                                            <path opacity="0.5"
-                                                                d="M17.2501 8.25003H9.75003V0.74999C9.75003 0.335778 9.41425 0 9.00004 0C8.58582 0 8.25004 0.335778 8.25004 0.74999V8.24999H0.749991C0.335779 8.25003 0 8.58581 0 9.00002C0 9.41423 0.335779 9.75001 0.749991 9.75001H8.25001V17.25C8.25001 17.6642 8.58579 18 9 18C9.41421 18 9.74999 17.6642 9.74999 17.25V9.75001H17.25C17.6642 9.75001 18 9.41423 18 9.00002C18.0001 8.58581 17.6643 8.25003 17.2501 8.25003Z"
-                                                                fill="#555555"></path>
-                                                        </svg></span>
-                                                    <span class="elementor-accordion-icon-opened"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="18"
-                                                            height="17" viewBox="0 0 18 17" fill="none">
-                                                            <path
-                                                                d="M16.778 15.3974L10.2962 8.95316L16.778 2.5089C17.136 2.153 17.136 1.57597 16.778 1.22007C16.42 0.864167 15.8396 0.864167 15.4817 1.22007L8.99984 7.6643L2.51799 1.22003C2.15998 0.864153 1.57959 0.864153 1.22161 1.22006C0.86363 1.57596 0.86363 2.15298 1.22161 2.50889L7.70344 8.95313L1.22162 15.3974C0.863644 15.7533 0.863645 16.3303 1.22162 16.6862C1.5796 17.0421 2.15999 17.0421 2.51797 16.6862L8.99978 10.242L15.4816 16.6862C15.8396 17.0421 16.42 17.0421 16.778 16.6862C17.136 16.3304 17.136 15.7533 16.778 15.3974Z"
-                                                                fill="#0E0E0E"></path>
-                                                        </svg></span>
-                                                </span>
-
-
-
-                                                <div class="tab-title">What industries do you specialize in?</div>
-
-
-                                            </div>
-                                        </div>
-
-                                        <div id="collapse_34314" class="accordion-collapse collapse show"
-                                            aria-labelledby="heading34314" data-bs-parent="#rs_accordion_inner_17723">
-                                            <div class="accordion-body">
-                                                <div class="content_wrapper">
-                                                    <p>What is your typical project timeline and how do you ensure deadlines
-                                                        These titles are designed to capture the essence of your agency and
-                                                        make a strong first impression. are met Industry Solutions Start
-                                                        with a Simple Contact foram span mail?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item ">
-                                        <div class="accordion-header" id="heading34315">
-                                            <div class="accordion-button collapsed" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse_34315" aria-controls="collapse_34315">
-                                                <span class="elementor-accordion-icon elementor-accordion-icon-left"
-                                                    aria-hidden="true">
-                                                    <span class="elementor-accordion-icon-closed"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="18"
-                                                            height="18" viewBox="0 0 18 18" fill="none">
-                                                            <path opacity="0.5"
-                                                                d="M17.2501 8.25003H9.75003V0.74999C9.75003 0.335778 9.41425 0 9.00004 0C8.58582 0 8.25004 0.335778 8.25004 0.74999V8.24999H0.749991C0.335779 8.25003 0 8.58581 0 9.00002C0 9.41423 0.335779 9.75001 0.749991 9.75001H8.25001V17.25C8.25001 17.6642 8.58579 18 9 18C9.41421 18 9.74999 17.6642 9.74999 17.25V9.75001H17.25C17.6642 9.75001 18 9.41423 18 9.00002C18.0001 8.58581 17.6643 8.25003 17.2501 8.25003Z"
-                                                                fill="#555555"></path>
-                                                        </svg></span>
-                                                    <span class="elementor-accordion-icon-opened"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="18"
-                                                            height="17" viewBox="0 0 18 17" fill="none">
-                                                            <path
-                                                                d="M16.778 15.3974L10.2962 8.95316L16.778 2.5089C17.136 2.153 17.136 1.57597 16.778 1.22007C16.42 0.864167 15.8396 0.864167 15.4817 1.22007L8.99984 7.6643L2.51799 1.22003C2.15998 0.864153 1.57959 0.864153 1.22161 1.22006C0.86363 1.57596 0.86363 2.15298 1.22161 2.50889L7.70344 8.95313L1.22162 15.3974C0.863644 15.7533 0.863645 16.3303 1.22162 16.6862C1.5796 17.0421 2.15999 17.0421 2.51797 16.6862L8.99978 10.242L15.4816 16.6862C15.8396 17.0421 16.42 17.0421 16.778 16.6862C17.136 16.3304 17.136 15.7533 16.778 15.3974Z"
-                                                                fill="#0E0E0E"></path>
-                                                        </svg></span>
-                                                </span>
-
-
-
-                                                <div class="tab-title">How can I get a quote for my project?</div>
-
-
-                                            </div>
-                                        </div>
-
-                                        <div id="collapse_34315" class="accordion-collapse collapse "
-                                            aria-labelledby="heading34315" data-bs-parent="#rs_accordion_inner_17723">
-                                            <div class="accordion-body">
-                                                <div class="content_wrapper">
-                                                    <p>What is your typical project timeline and how do you ensure deadlines
-                                                        These titles are designed to capture the essence of your agency and
-                                                        make a strong first impression. are met Industry Solutions Start
-                                                        with a Simple Contact?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="accordion-item ">
-                                        <div class="accordion-header" id="heading34316">
-                                            <div class="accordion-button collapsed" data-bs-toggle="collapse"
-                                                data-bs-target="#collapse_34316" aria-controls="collapse_34316">
-                                                <span class="elementor-accordion-icon elementor-accordion-icon-left"
-                                                    aria-hidden="true">
-                                                    <span class="elementor-accordion-icon-closed"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="18"
-                                                            height="18" viewBox="0 0 18 18" fill="none">
-                                                            <path opacity="0.5"
-                                                                d="M17.2501 8.25003H9.75003V0.74999C9.75003 0.335778 9.41425 0 9.00004 0C8.58582 0 8.25004 0.335778 8.25004 0.74999V8.24999H0.749991C0.335779 8.25003 0 8.58581 0 9.00002C0 9.41423 0.335779 9.75001 0.749991 9.75001H8.25001V17.25C8.25001 17.6642 8.58579 18 9 18C9.41421 18 9.74999 17.6642 9.74999 17.25V9.75001H17.25C17.6642 9.75001 18 9.41423 18 9.00002C18.0001 8.58581 17.6643 8.25003 17.2501 8.25003Z"
-                                                                fill="#555555"></path>
-                                                        </svg></span>
-                                                    <span class="elementor-accordion-icon-opened"><svg
-                                                            xmlns="http://www.w3.org/2000/svg" width="18"
-                                                            height="17" viewBox="0 0 18 17" fill="none">
-                                                            <path
-                                                                d="M16.778 15.3974L10.2962 8.95316L16.778 2.5089C17.136 2.153 17.136 1.57597 16.778 1.22007C16.42 0.864167 15.8396 0.864167 15.4817 1.22007L8.99984 7.6643L2.51799 1.22003C2.15998 0.864153 1.57959 0.864153 1.22161 1.22006C0.86363 1.57596 0.86363 2.15298 1.22161 2.50889L7.70344 8.95313L1.22162 15.3974C0.863644 15.7533 0.863645 16.3303 1.22162 16.6862C1.5796 17.0421 2.15999 17.0421 2.51797 16.6862L8.99978 10.242L15.4816 16.6862C15.8396 17.0421 16.42 17.0421 16.778 16.6862C17.136 16.3304 17.136 15.7533 16.778 15.3974Z"
-                                                                fill="#0E0E0E"></path>
-                                                        </svg></span>
-                                                </span>
-
-
-
-                                                <div class="tab-title">Do you provide post-project support?</div>
-
-
-                                            </div>
-                                        </div>
-
-                                        <div id="collapse_34316" class="accordion-collapse collapse "
-                                            aria-labelledby="heading34316" data-bs-parent="#rs_accordion_inner_17723">
-                                            <div class="accordion-body">
-                                                <div class="content_wrapper">
-                                                    <p>What is your typical project timeline and how do you ensure deadlines
-                                                        These titles are designed to capture the essence of your agency and
-                                                        make a strong first impression. are met Industry Solutions Start
-                                                        with a Simple Contact foram span mail?</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <script>
-                                    jQuery(document).ready(function($) {
-                                        $('#rs_accordion_inner_17723 .accordion-collapse').on('show.bs.collapse', function() {
-                                            $(this).closest('.accordion-item').addClass('active');
-                                        });
-
-                                        $('#rs_accordion_inner_17723 .accordion-collapse').on('hide.bs.collapse', function() {
-                                            $(this).closest('.accordion-item').removeClass('active');
-                                        });
-                                    });
-                                </script>
-                            </div>
-                        </div>
-                        <div class="no-position  rs-sticky-default elementor-element elementor-element-41766d34 e-con-full e-flex e-con e-child"
+                        < <div
+                            class="no-position  rs-sticky-default elementor-element elementor-element-41766d34 e-con-full e-flex e-con e-child"
                             data-id="41766d34" data-element_type="container"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div class="elementor-element elementor-element-464b026b gsap-move-no elementor-widget elementor-widget-rspostnavigation"
@@ -535,8 +250,7 @@
                                     <div class="rs-post-navigation rs-portfolio-navigation">
                                         <ul>
                                             <li class="prev">
-                                                <a
-                                                    href="https://demo.rstheme.com/wordpress/abuild/portfolios/quality-in-every-detail/">
+                                                <a href="{{ route('project.project_detail') }}?slug={{ $prev['slug'] }}">
                                                     <span class="next_link">
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="22"
                                                             height="8" viewBox="0 0 22 8" fill="none">
@@ -545,12 +259,11 @@
                                                                 fill="white"></path>
                                                         </svg> Prev Post </span>
                                                     <span class="link_text">
-                                                        Quality in Every Detail </span>
+                                                        {{ $prev['name'] }} </span>
                                                 </a>
                                             </li>
                                             <li class="next">
-                                                <a
-                                                    href="https://demo.rstheme.com/wordpress/abuild/portfolios/general-contracting/">
+                                                <a href="{{ route('project.project_detail') }}?slug={{ $next['slug'] }}">
                                                     <span class="next_link">
                                                         Next Post <svg xmlns="http://www.w3.org/2000/svg" width="22"
                                                             height="8" viewBox="0 0 22 8" fill="none">
@@ -559,7 +272,7 @@
                                                                 fill="white"></path>
                                                         </svg> </span>
                                                     <span class="link_text">
-                                                        General Contracting </span>
+                                                        {{ $next['name'] }} </span>
                                                 </a>
                                             </li>
                                         </ul>
@@ -567,10 +280,10 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 @endsection
