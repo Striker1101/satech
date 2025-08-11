@@ -441,9 +441,53 @@
             color: $primaryColor;
         }
     </style>
-
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
+    <style>
+        :root {
+            --e-global-color-primary: #394ea1;
+            --e-global-color-secondary: #0e0e0e;
+            --e-global-color-text: #555555;
+            --e-global-color-accent: #39ca6e;
+            --e-global-color-8e1049e: #0e0e0e;
+            --e-global-color-3924737: #f8f8f8;
+
+            --e-global-typography-cad7119-font-family: "Barlow";
+            --e-global-typography-cad7119-font-size: 16px;
+            --e-global-typography-cad7119-font-weight: 400;
+            --e-global-typography-cad7119-line-height: 26px;
+
+            --e-global-typography-a73083e-font-family: "Jost";
+            --e-global-typography-a73083e-font-size: 80px;
+            --e-global-typography-a73083e-font-weight: 800;
+            --e-global-typography-a73083e-line-height: 94px;
+
+            --e-global-typography-cb11fa9-font-family: "Jost";
+            --e-global-typography-cb11fa9-font-size: 52px;
+            --e-global-typography-cb11fa9-font-weight: 600;
+            --e-global-typography-cb11fa9-line-height: 62px;
+
+            --e-global-typography-bd1aed0-font-family: "Jost";
+            --e-global-typography-bd1aed0-font-size: 32px;
+            --e-global-typography-bd1aed0-font-weight: 600;
+            --e-global-typography-bd1aed0-line-height: 42px;
+
+            --e-global-typography-434b778-font-family: "Jost";
+            --e-global-typography-434b778-font-size: 24px;
+            --e-global-typography-434b778-font-weight: 600;
+            --e-global-typography-434b778-line-height: 34px;
+
+            --e-global-typography-4bfa35c-font-family: "Jost";
+            --e-global-typography-4bfa35c-font-size: 16px;
+            --e-global-typography-4bfa35c-font-weight: 600;
+            --e-global-typography-4bfa35c-line-height: 26px;
+
+            --e-global-typography-f37ae15-font-family: "Jost";
+            --e-global-typography-f37ae15-font-size: 14px;
+            --e-global-typography-f37ae15-font-weight: 600;
+            --e-global-typography-f37ae15-line-height: 24px;
+        }
+    </style>
 </head>
 
 

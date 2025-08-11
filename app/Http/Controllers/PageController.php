@@ -56,16 +56,23 @@ class PageController extends Controller
 
         $mailData = [
             'subject' => 'New Contact Form Submission',
-            'body' => "
-            A new contact message was submitted from your website:
+            'body' =>
+                "
+        You have received a new contact form submission from your website.
 
-            Name: {$data['first_name']} {$data['last_name']}
-            Phone: {$data['phone']}
-            Email: {$data['email']}
+        Name: {$data['first_name']} {$data['last_name']}
+        Phone: {$data['phone']}
+        Email: {$data['email']}
+        Service: " .
+                ($request->service ?? 'Not specified') .
+                "
 
-            Message:
-            {$data['message']}
-        ",
+        Message:
+        {$data['message']}
+
+        ---
+        This message was sent via the contact form on your website.
+    ",
         ];
 
         Mail::raw($mailData['body'], function ($message) use ($adminEmail, $mailData, $data) {

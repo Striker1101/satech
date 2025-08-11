@@ -320,7 +320,5 @@
             '42883',
             'f286e91',
         ]" :teams="$teams" />
-
-
     </div>
 @endsection
