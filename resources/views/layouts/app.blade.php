@@ -571,16 +571,6 @@
         /* ]]> */
     </script>
     <script type="text/javascript" src="{{ asset('js/swn-index.js') }}?ver=6.0.3" id="swv-js"></script>
-    <script type="text/javascript" id="contact-form-7-js-before">
-        /* <![CDATA[ */
-        var wpcf7 = {
-            "api": {
-                "root": "https:\/\/demo.rstheme.com\/wordpress\/abuild\/wp-json\/",
-                "namespace": "contact-form-7\/v1"
-            }
-        };
-        /* ]]> */
-    </script>
     <script type="text/javascript" src="{{ asset('js/contact-form-7.js') }}?ver=6.0.3" id="contact-form-7-js"></script>
     <script type="text/javascript" src="{{ asset('js/popper.js') }}?ver=201513434" id="popper-js"></script>
     <script type="text/javascript" src="{{ asset('js/headding-title.js') }}?ver=201513434" id="headding-title-js"></script>

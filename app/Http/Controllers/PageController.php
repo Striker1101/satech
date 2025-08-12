@@ -42,7 +42,7 @@ class PageController extends Controller
         return view('pages.contact');
     }
 
-    public function contact_post()
+    public function contact_post(Request $request)
     {
         $data = $request->validate([
             'first_name' => 'required|string|max:100',
@@ -82,7 +82,8 @@ class PageController extends Controller
                 ->replyTo($data['email'], "{$data['first_name']} {$data['last_name']}");
         });
 
-        return response()->json(['message' => 'Message sent successfully.'], 200);
+     return redirect()->back()->with('success', 'Message sent successfully.');
+
     }
 
     public function partner()

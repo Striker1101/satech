@@ -48,7 +48,8 @@
             return t;
         },
         r = (e) => {
-            const { root: t, namespace: a = "contact-form-7/v1" } = wpcf7.api;
+            const { root: t, namespace: a = "contact-form-7-NOT/v1" } =
+                wpcf7.api;
             return c.reduceRight(
                 (e, t) => (a) => t(a, e),
                 (e) => {
